@@ -1,5 +1,6 @@
 # alzepi
 Mapping the Epigenomic Landscape in Alzheimer's Disease
+
 Abstract 
 Alzheimer's disease (AD) is a debilitating neurodegenerative disorder characterized by progressive cognitive decline. Microglia, the resident immune cells of the brain, play a pivotal role in the pathology of AD, particularly through their response to amyloid beta (Aβ) plaques. This study aims to elucidate the epigenomic and transcriptomic landscapes of human microglia influenced by different APOE isoforms (APOE2, APOE3, APOE4) and APOE knockout (APOE-KO) in a xenotransplantation model of AD. Using RNA-seq and ATAC-seq, we mapped gene expression profiles and chromatin accessibility in microglia isolated from xenotransplanted human microglia into AppNL-G-F mouse brains. Our findings reveal significant isoform-dependent differences in gene regulation and chromatin landscapes, contributing to a deeper understanding of APOE's role in AD pathology.
 
