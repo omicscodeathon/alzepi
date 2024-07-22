@@ -14,8 +14,7 @@ The biological underpinnings of these sex differences in AD are not fully unders
 Recent studies using animal models, such as the 3xTg-AD mice, have provided valuable insights into the interplay between age, sex, and AD pathology. These models have shown that aging exacerbates the accumulation of Aβ plaques and tau tangles, leading to neurodegeneration and cognitive deficits (Cells, 2024)​(nihms-1680875)​. Moreover, sex differences in the expression of genes related to immune response and inflammation have been observed, suggesting that the innate immune system may differentially contribute to AD pathogenesis in males and females (Awad, 2024; Jagust & Landau, 2021)​(nihms-1509907)​​(NEUROLOGY2020122069)​.
 This study aims to investigate the sex-specific molecular and inflammatory responses in aged 3xTg-AD mice, a well-established model of AD, and to compare these findings with postmortem human brain data. By employing RNA sequencing (RNA-seq) to profile gene expression in bulk brain tissues from male and female mice at different ages, we seek to elucidate the differential impact of aging and sex on AD progression. Our hypothesis is that sex-specific molecular signatures can provide deeper insights into the mechanisms driving AD and identify potential therapeutic targets and biomarkers for early intervention.
 
-Insert background here. Various studies have suggested that …... (citation; citation; citation)
-Insert introduction here. This section should provide context as to why the software tool was developed and what needs it addresses. It’s also good if the need became obvious as a result of reading some literature and finding some gaps that exist in previous work in this field (citation). The background of the work should be documented here (citation) and it should be clear that the authors know the domain quite well (citation).
+
 
 
 
