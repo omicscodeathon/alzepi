@@ -1,1 +1,41 @@
+Summary of the Dataset
+Series GSE254970
+Status: Public on July 08, 2024
+Title: Age, Sex and Alzheimer’s disease: a longitudinal study of 3xTg-AD mice reveals sex-specific disease trajectories and inflammatory responses mirrored in postmortem brains from Alzheimer’s patients
+Organism: Mus musculus (Mouse)
+Experiment Type: Expression profiling by high throughput sequencing
+Summary:
+Aging and sex are major risk factors for developing late-onset Alzheimer’s disease (AD). Women are nearly twice as likely as men to develop AD and suffer from a heavier neuropathological burden and cognitive decline despite living longer with the disease.
+The study hypothesizes that differences in biological aging between sexes contribute to distinct molecular signatures in AD, which can be utilized for therapeutic and biomarker development.
+Aged male and female 3xTg-AD mice and B6129 control mice were studied across their lifespans. Brain samples were collected longitudinally.
+RNA sequencing (RNA-seq) analysis was performed on bulk brain tissues to identify differentially expressed genes between 3xTg-AD and B6129 samples across different ages and sexes.
+Results showed that male 3xTg-AD mice experienced an accelerated upregulation of immune-related genes in the brain compared to females, especially genes involved in the complement system, suggesting distinct inflammatory disease trajectories between sexes.
+Chronic inflammation and complement activation were linked to increased mortality, revealing that age-related changes in immune response are a primary driver of sex differences in AD trajectories.
+Overall Design
+To examine molecular changes throughout disease progression, brain tissue from male and female 3xTg-AD and B6129 control mice were collected at the ages of 6 and 24 months.
+Preparation and Analysis
+Sample Collection:
 
+Brain tissues were collected from male and female 3xTg-AD and B6129 control mice at two age points: 6 months and 24 months.
+RNA Extraction and Sequencing:
+
+Total RNA was extracted using a standardized protocol .
+RNA quality and quantity were assessed using the Agilent Bioanalyzer.
+RNA-seq libraries were prepared using the NEBNext Ultra RNA Library Prep Kit.
+Sequencing was performed on an Illumina HiSeq 4000 platform to generate high-throughput sequencing data.
+Data Processing:
+
+Raw sequencing reads were subjected to quality control using FastQC.
+Reads were trimmed to remove adaptors and low-quality bases using Trimmomatic.
+Cleaned reads were aligned to the mouse reference genome (GRCm38) using HISAT2.
+Quantification and Differential Expression Analysis:
+
+Aligned reads were quantified using FeatureCounts to obtain gene-level count data.
+Differential expression analysis was conducted using DESeq2 in R, with an adjusted p-value cutoff of 0.05 to identify significant changes in gene expression.
+Functional Enrichment Analysis:
+
+Gene ontology (GO) and pathway enrichment analyses were performed to identify biological processes and pathways that are significantly enriched among differentially expressed genes.
+Visualization and Interpretation:
+
+Principal Component Analysis (PCA) and heatmaps were generated to visualize the overall patterns of gene expression and the differences between groups.
+Specific genes related to immune response and complement activation were highlighted to understand their roles in sex-specific AD progression.
