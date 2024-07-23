@@ -1,0 +1,61 @@
+Materials
+Experimental Subjects:
+Transgenic Mice: 3xTg-AD mice.
+Control Mice: B6129 control mice.
+Ages Studied: 6 months and 24 months.
+Sexes Studied: Male and female.
+Samples:
+Brain tissue collected from both male and female mice.
+Methods
+Sample Collection
+Mice were euthanized at specific time points (6 and 24 months).
+Brains were immediately dissected and frozen in liquid nitrogen.
+Samples were stored at -80°C until RNA extraction.
+RNA Extraction
+Reagent: Total RNA was extracted using TRIzol reagent.
+Kit: RNA extraction was performed using the RNeasy Mini Kit (Qiagen).
+Assessment: RNA quality and quantity were assessed using an Agilent 2100 Bioanalyzer.
+Library Preparation and Sequencing
+Library Preparation: Libraries were prepared using the NEBNext Ultra II RNA Library Prep Kit for Illumina.
+Sequencing Platform: Libraries were sequenced on an Illumina NovaSeq 6000 platform.
+Read Length: Paired-end 150 base pairs (PE150).
+Data Processing
+Quality Control
+Tool: FastQC v0.11.9 was used to assess the quality of raw sequencing reads.
+Trimming: Adapter sequences and low-quality bases were trimmed using Trimmomatic v0.39.
+Alignment
+Reference Genome: Mouse reference genome (GRCm38/mm10).
+Tool: HISAT2 v2.2.1 was used for aligning the trimmed reads to the reference genome.
+Quantification
+Tool: FeatureCounts v2.0.1 was used to quantify gene expression levels from the aligned reads.
+Differential Gene Expression Analysis
+Tool: DESeq2 v1.30.1 (R/Bioconductor package) will be used for identifying differentially expressed genes.
+Adjustment for Multiple Testing: Benjamini-Hochberg method was used to control the false discovery rate (FDR).
+Analysis of Correlation Between Age, Sex, and AD
+Exploratory Data Analysis:
+Summarize and visualize gene expression data across different groups (age, sex, AD, and control) using box plots, violin plots, and heatmaps.
+Correlation Analysis:
+Use Spearman’s rank correlation or Pearson correlation to analyze the correlation between gene expression levels and age, sex, and AD status.
+Perform correlation analysis using R or Python packages like cor function in R or pandas and scipy in Python.
+Statistical Tests:
+Perform ANOVA using the aov function in R or statsmodels in Python.
+Principal Component Analysis (PCA)
+Data Normalization:
+Normalize gene expression data using DESeq2 or edgeR to account for sequencing depth and other technical variations.
+PCA Analysis:
+Perform PCA using the normalized gene expression data to reduce dimensionality and identify major sources of variation.
+Use R packages like prcomp or Python libraries like scikit-learn to perform PCA.
+Visualize PCA results using scatter plots to distinguish between different groups (age, sex, AD, and control).
+Comparing Controls and Diseased Samples
+Differential Expression Analysis:
+Use DESeq2 to identify differentially expressed genes between 3xTg-AD and B6129 control mice at each age and sex.
+Adjust p-values for multiple testing using the Benjamini-Hochberg method.
+Volcano Plot:
+Create volcano plots to visualize differentially expressed genes with log fold change on the x-axis and -log10(p-value) on the y-axis.
+Heatmap:
+Generate heatmaps of differentially expressed genes to visualize expression patterns across samples using pheatmap in R or seaborn in Python.
+Functional Enrichment Analysis:
+Perform Gene Ontology (GO) and pathway enrichment analysis for differentially expressed genes using tools like DAVID or Enrichr.
+Gene Set Enrichment Analysis (GSEA):
+Conduct GSEA to identify enriched pathways and biological processes in AD versus control groups using the GSEA software.
+
