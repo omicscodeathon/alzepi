@@ -4,7 +4,7 @@ Mapping the Epigenomic Landscape in Alzheimer's Disease
 Abstract 
 Aging and sex are pivotal factors influencing the onset and progression of late-onset Alzheimer’s disease (AD). Women are nearly twice as likely as men to develop AD and face more severe neuropathological burdens and cognitive declines, despite having a longer lifespan with the disease. The underlying mechanisms of how sex differences in biological aging contribute to AD pathogenesis are not well understood. This study explores the hypothesis that sex-specific molecular signatures in AD can provide insights into therapeutic and biomarker development. We conducted a longitudinal study using 3xTg-AD mice and B6129 control mice, collecting brain samples from aged male and female mice over their lifespans. RNA sequencing was performed to analyze gene expression profiles in bulk brain tissue, focusing on differences across sexes and age groups. Our results indicate that male 3xTg-AD mice show a significant increase in immune-related gene expression compared to females, with notable activation in complement system genes. This suggests distinct inflammatory pathways between sexes in AD progression. Additionally, chronic inflammation and complement activation were linked to higher mortality rates, emphasizing that age-related immune responses play a crucial role in sex differences observed in AD. These findings underscore the need for sex-specific approaches in AD research and treatment strategies.
 
-Keywords: Alzheimer disease,epigenetic,A,expression analysis,RNAseq
+Keywords: **Alzheimer disease**,**epigenetic**,A,**expression analysis**,**RNAseq**
 
 
 
