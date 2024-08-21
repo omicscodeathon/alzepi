@@ -1,40 +1,25 @@
+#!/usr/bin/bash
+
 #PBS -l select=3:ncpus=24:mpiprocs=24:mem=120gb
 #PBS -q normal
-#PBS -l walltime=24:00:00
+#PBS -l walltime=4:00:00
 #PBS -o /home/pajwang/lustre/kimani/alzepi/output/fast_dump_ouput.txt
 #PBS -e /home/pajwang/lustre/kimani/alzepi/output/fast_dump_error.txt
 #PBS -m abe
 #PBS -M kimanijkariuki@gmail.com
 #PBS -N fastq-dump
+#PBS -P CBBI1470
 
 set -eu
 
 module load chpc/BIOMODULES
-       
-
-#!/usr/bin/env bash
+module add  sra-toolkit/3.1.0
 
 
-# List of SRA identifiers
-sra_ids=(
-    SRR27848283 SRR27848284 SRR27848285 SRR27848286 SRR27848287
-    SRR27848288 SRR27848289 SRR27848290 SRR27848291 SRR27848292
-    SRR27848293 SRR27848294 SRR27848295 SRR27848296 SRR27848297
-    SRR27848298 SRR27848299 SRR27848300 SRR27848301 SRR27848302
-    SRR27848303 SRR27848304 SRR27848305 SRR27848306 SRR27848307
-    SRR27848308 SRR27848309 SRR27848310 SRR27848311 SRR27848312
-    SRR27848313 SRR27848314 SRR27848315 SRR27848316 SRR27848317
-    SRR27848318 SRR27848319 SRR27848320 SRR27848321 SRR27848322
-    SRR27848323 SRR27848324 SRR27848325 SRR27848326 SRR27848327
-    SRR27848328 SRR27848329 SRR27848330 SRR27848331 SRR27848332
-    SRR27848333 SRR27848334 SRR27848335 SRR27848336 SRR27848337
-    SRR27848338 SRR27848339 SRR27848340 SRR27848341 SRR27848342
-    SRR27848343 SRR27848344 SRR27848345 SRR27848346 SRR27848347
-    SRR27848348 SRR27848349 SRR27848350 SRR27848351 SRR27848352
-    SRR27848353 SRR27848354 SRR27848355 SRR27848356 SRR27848357
-    SRR27848358 SRR27848359
-)
+#file path
+sra_ids=/home/pajwang/lustre/kimani/alzepi/accessions/accessions.txt
 
+#a variable for the output directory 
 output_dir=/home/pajwang/lustre/kimani/alzepi/output
 
 # Download the SRA files
@@ -43,7 +28,7 @@ for sra_id in "${sra_ids[@]}"; do
 	prefetch "$sra_id"
 
 # Convert the SRA files to paired FASTQ files
-	fastq-dump --split-files --gzip --outdir "$output_dir"
+	fastq-dump "$sra_id" --threads 60 --outdir "$output_dir" --split-files --gzip
 
 
 	echo "$sra_id processed succesfully" 
