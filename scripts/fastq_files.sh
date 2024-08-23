@@ -17,22 +17,22 @@ module add  sra-toolkit/3.1.0
 
 
 #file path
-sra_ids=/home/pajwang/lustre/kimani/alzepi/accessions/accessions.txt
+sra_id_file=/home/pajwang/lustre/kimani/alzepi/accessions/accessions.txt
 
 #a variable for the output directory 
 output_dir=/home/pajwang/lustre/kimani/alzepi/output
 
-# Download the SRA files
-for sra_id in "${sra_ids[@]}"; do	
-	echo "processing $sra_id..."
-	prefetch "$sra_id"
-
-# Convert the SRA files to paired FASTQ files
-	fastq-dump "$sra_id" --threads 60 --outdir "$output_dir" --split-files --gzip
-
-
-	echo "$sra_id processed succesfully" 
-done
-
-echo "All jobs competed succesfully"
-
+# Download 
+while read -r sra_id; do
+    echo "Processing $sra_id..."
+    
+    # Convert the SRA file to paired FASTQ files
+    fastq-dump "$sra_id" --outdir "$output_dir" --split-files --gzip
+    
+    if [ $? -eq 0 ]; then
+        echo "$sra_id processed successfully."
+    else
+        echo "Error processing $sra_id." >&2
+        exit 1
+    fi
+done < "$sra_id_file"
