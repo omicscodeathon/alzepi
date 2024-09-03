@@ -21,7 +21,8 @@ sra_ids=(
 )
 
 # adaptaer file path
-adapter_file="/home/nourbar7oumi/TruSeq3-PE.fa"
+#adapter_file="/home/nourbar7oumi/TruSeq3-PE.fa" This is doomed to cause us trouble. should also be a relative path.
+adapter_file = "../TruSeq3-PE.fa"
 
 # SRR folder
 mkdir -p sra_files
