@@ -20,10 +20,10 @@ module load sratools/
 
 
 #file path
-sra_id_file=/home/KWTRP/kkimani/Home/alzepi/accessions/accessions.txt
+sra_id_file=../accessions/accessions.txt
 
 #a variable for the output directory
-output_dir=/home/KWTRP/kkimani/Home/alzepi/output
+output_dir=../output
 
 # Download
 while read -r sra_id; do
