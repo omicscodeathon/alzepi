@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
 # The path to the files to be trimmed 
-input_dir=/home/KWTRP/kkimani/Home/alzepi/output
+input_dir=../output
 cd $input_dir
 
-#makking a  directory for the results  of fastp
+#making a  directory for the results  of fastp
 mkdir ./fastp
 
 # a loop to iterate through the sequences in the input directory 
