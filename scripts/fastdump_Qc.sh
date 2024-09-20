@@ -1,3 +1,24 @@
+#!/bin/bash
+#*********************************************************
+# This is a test script
+
+# ========================================================
+#--- slurm commands ---
+
+#SBATCH --job-name fastp_qc
+#SBATCH --partition=longrun
+#SBATCH --time=24:00:00
+#SBATCH --ntasks=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=400G
+#SBATCH --output=job.%j.out
+#SBATCH --error=job.%j.err
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=kkimani@kemri-wellcome.org
+
+conda activate alzepi
+
 #file path
 sra_id_file=/home/KWTRP/kkimani/Home/alzepi/SRR_Acc_List.txt
 

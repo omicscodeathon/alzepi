@@ -1,0 +1,35 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+mkdir: cannot create directory ‘./fastp’: File exists
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
+/var/spool/slurm/slurmd/job02505/slurm_script: line 36: fastp: command not found
