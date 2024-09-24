@@ -1,0 +1,2 @@
+sequana-fastqc
+biopython

@@ -1,0 +1,8 @@
+# Exclude all files by default
+*
+
+# Allow .txt files
+!*.txt
+
+# Exclude files containing "mini" in their filename, regardless of extension
+*mini*

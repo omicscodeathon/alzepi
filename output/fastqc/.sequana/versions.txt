@@ -1,0 +1,4 @@
+fastqc	0.12.1
+falco	unknown
+multiqc	1.17
+dot	2.43.0

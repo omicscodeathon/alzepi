@@ -1,0 +1,11 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR27848283_2	/home/alzepi/alzepi/output/fastqc/samples/SRR27848283_2/SRR27848283_2_fastqc.zip
+FastQC	all_sections	SRR27848286_1	/home/alzepi/alzepi/output/fastqc/samples/SRR27848286_1/SRR27848286_1_fastqc.zip
+FastQC	all_sections	SRR27848287_1	/home/alzepi/alzepi/output/fastqc/samples/SRR27848287_1/SRR27848287_1_fastqc.zip
+FastQC	all_sections	SRR27848287_2	/home/alzepi/alzepi/output/fastqc/samples/SRR27848287_2/SRR27848287_2_fastqc.zip
+FastQC	all_sections	SRR27848285_2	/home/alzepi/alzepi/output/fastqc/samples/SRR27848285_2/SRR27848285_2_fastqc.zip
+FastQC	all_sections	SRR27848286_2	/home/alzepi/alzepi/output/fastqc/samples/SRR27848286_2/SRR27848286_2_fastqc.zip
+FastQC	all_sections	SRR27848284_1	/home/alzepi/alzepi/output/fastqc/samples/SRR27848284_1/SRR27848284_1_fastqc.zip
+FastQC	all_sections	SRR27848285_1	/home/alzepi/alzepi/output/fastqc/samples/SRR27848285_1/SRR27848285_1_fastqc.zip
+FastQC	all_sections	SRR27848284_2	/home/alzepi/alzepi/output/fastqc/samples/SRR27848284_2/SRR27848284_2_fastqc.zip
+FastQC	all_sections	SRR27848283_1	/home/alzepi/alzepi/output/fastqc/samples/SRR27848283_1/SRR27848283_1_fastqc.zip

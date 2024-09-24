@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
-# Perform quality analysis with
+source ./version.sh
 
 # Navigate to the output directory
-cd /home/KWTRP/kkimani/Home/alzepi/output/fastp || { echo "Directory not found"; exit 1; }
+cd ../output/fastp || { echo "Directory not found"; exit 1; }
 pwd
 
 # Create the results directory if it doesn't exist

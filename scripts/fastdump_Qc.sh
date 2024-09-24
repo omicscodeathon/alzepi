@@ -1,8 +1,8 @@
 #file path
-sra_id_file=/home/KWTRP/kkimani/Home/alzepi/SRR_Acc_List.txt
+sra_id_file=../SRR_Acc_List.txt
 
 #a variable for the output directory
-output_dir=/home/KWTRP/kkimani/Home/alzepi/output
+output_dir=../output
 
 # Download
 while read -r sra_id; do
@@ -22,7 +22,7 @@ done < "$sra_id_file"
 # Perform quality analysis with
 
 # Navigate to the output directory
-cd /home/KWTRP/kkimani/Home/alzepi/output || { echo "Directory not found"; exit 1; }
+cd ../output || { echo "Directory not found"; exit 1; }
 pwd
 
 # Create the results directory if it doesn't exist

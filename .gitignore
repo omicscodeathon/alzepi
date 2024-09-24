@@ -1,0 +1,49 @@
+# Ignore Python virtual environment directories
+*.env/
+*.venv/
+venv/
+env/
+.env/
+.venv/
+.pipenv
+
+# Ignore Conda environment directories
+# edit to your custom conda envs. man is to err! to perfection, devine.
+envs/
+
+#Ignore star indices folder
+star_index/
+STARtmp/
+
+# Ignore package distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore local configuration files
+*.local
+
+# Ignore PyCharm and VSCode configuration folders (if using these editors)
+.idea/
+.vscode/
+
+# Allow all folders (the default rule in gitignore)
+!*/
+
+# Ignore all gzip files (bulk of the projec)
+*.gz
+*.fna
+*.log
+*.done
+*.out
+*.bam

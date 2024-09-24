@@ -12,15 +12,12 @@
 
 set -eu
 
-module load chpc/BIOMODULES
-module add  sra-toolkit/3.1.0
+source version.sh
 
-
-#file path
-sra_id_file=/home/pajwang/lustre/kimani/alzepi/accessions/accessions.txt
-
+#sra_id_file=../accessions/accessions.txt
+sra_id_file=../accessions/mini_accessions.txt
 #a variable for the output directory 
-output_dir=/home/pajwang/lustre/kimani/alzepi/output
+output_dir=../output
 
 # Download 
 while read -r sra_id; do

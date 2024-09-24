@@ -1,1 +1,11 @@
- 
+# Ignore all files and directories
+*
+
+# Allow .sh files
+!*.sh
+
+# Allow NCBI error reports
+!ncbi_error_report*
+
+# Explicitly include directories (so that the ignore rules can be applied within them)
+!*/

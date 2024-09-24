@@ -1,0 +1,6 @@
+# sequana_pipetools version: 1.0.5
+# sequana_fastqc version: 1.8.2
+# sequana version: 0.17.3
+# python version: 3.10.12
+# Date: 2024-09-19 12:59:56.444575
+sequana_fastqc --input-directory /home/alzepi/alzepi/output --working-directory /home/alzepi/alzepi/output/fastqc --force

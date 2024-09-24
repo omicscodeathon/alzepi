@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+source ./version.sh
+
 # The path to the files to be trimmed 
 input_dir=../output
 cd $input_dir
