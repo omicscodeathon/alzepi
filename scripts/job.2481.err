@@ -1,0 +1,1365 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+2024-09-10 17:39:48,233 - SRR ids: ['SRR29492859']
+2024-09-10 17:39:48,233 - extra args: ['--split-files', '--gzip']
+2024-09-10 17:39:48,236 - tempdir: /tmp/pfd_wnq505zr
+2024-09-10 17:39:48,236 - CMD: sra-stat --meta --quick SRR29492859
+2024-09-10 17:40:09,036 - SRR29492859 spots: 39815775
+2024-09-10 17:40:09,037 - blocks: [[1, 1105993], [1105994, 2211986], [2211987, 3317979], [3317980, 4423972], [4423973, 5529965], [5529966, 6635958], [6635959, 7741951], [7741952, 8847944], [8847945, 9953937], [9953938, 11059930], [11059931, 12165923], [12165924, 13271916], [13271917, 14377909], [14377910, 15483902], [15483903, 16589895], [16589896, 17695888], [17695889, 18801881], [18801882, 19907874], [19907875, 21013867], [21013868, 22119860], [22119861, 23225853], [23225854, 24331846], [24331847, 25437839], [25437840, 26543832], [26543833, 27649825], [27649826, 28755818], [28755819, 29861811], [29861812, 30967804], [30967805, 32073797], [32073798, 33179790], [33179791, 34285783], [34285784, 35391776], [35391777, 36497769], [36497770, 37603762], [37603763, 38709755], [38709756, 39815775]]
+2024-09-10 17:40:09,037 - CMD: fastq-dump -N 1 -X 1105993 -O /tmp/pfd_wnq505zr/0 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,064 - CMD: fastq-dump -N 1105994 -X 2211986 -O /tmp/pfd_wnq505zr/1 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,066 - CMD: fastq-dump -N 2211987 -X 3317979 -O /tmp/pfd_wnq505zr/2 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,068 - CMD: fastq-dump -N 3317980 -X 4423972 -O /tmp/pfd_wnq505zr/3 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,070 - CMD: fastq-dump -N 4423973 -X 5529965 -O /tmp/pfd_wnq505zr/4 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,071 - CMD: fastq-dump -N 5529966 -X 6635958 -O /tmp/pfd_wnq505zr/5 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,073 - CMD: fastq-dump -N 6635959 -X 7741951 -O /tmp/pfd_wnq505zr/6 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,074 - CMD: fastq-dump -N 7741952 -X 8847944 -O /tmp/pfd_wnq505zr/7 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,076 - CMD: fastq-dump -N 8847945 -X 9953937 -O /tmp/pfd_wnq505zr/8 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,078 - CMD: fastq-dump -N 9953938 -X 11059930 -O /tmp/pfd_wnq505zr/9 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,079 - CMD: fastq-dump -N 11059931 -X 12165923 -O /tmp/pfd_wnq505zr/10 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,081 - CMD: fastq-dump -N 12165924 -X 13271916 -O /tmp/pfd_wnq505zr/11 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,083 - CMD: fastq-dump -N 13271917 -X 14377909 -O /tmp/pfd_wnq505zr/12 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,084 - CMD: fastq-dump -N 14377910 -X 15483902 -O /tmp/pfd_wnq505zr/13 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,085 - CMD: fastq-dump -N 15483903 -X 16589895 -O /tmp/pfd_wnq505zr/14 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,087 - CMD: fastq-dump -N 16589896 -X 17695888 -O /tmp/pfd_wnq505zr/15 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,088 - CMD: fastq-dump -N 17695889 -X 18801881 -O /tmp/pfd_wnq505zr/16 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,089 - CMD: fastq-dump -N 18801882 -X 19907874 -O /tmp/pfd_wnq505zr/17 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,091 - CMD: fastq-dump -N 19907875 -X 21013867 -O /tmp/pfd_wnq505zr/18 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,093 - CMD: fastq-dump -N 21013868 -X 22119860 -O /tmp/pfd_wnq505zr/19 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,094 - CMD: fastq-dump -N 22119861 -X 23225853 -O /tmp/pfd_wnq505zr/20 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,096 - CMD: fastq-dump -N 23225854 -X 24331846 -O /tmp/pfd_wnq505zr/21 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,097 - CMD: fastq-dump -N 24331847 -X 25437839 -O /tmp/pfd_wnq505zr/22 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,098 - CMD: fastq-dump -N 25437840 -X 26543832 -O /tmp/pfd_wnq505zr/23 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,100 - CMD: fastq-dump -N 26543833 -X 27649825 -O /tmp/pfd_wnq505zr/24 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,101 - CMD: fastq-dump -N 27649826 -X 28755818 -O /tmp/pfd_wnq505zr/25 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,103 - CMD: fastq-dump -N 28755819 -X 29861811 -O /tmp/pfd_wnq505zr/26 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,104 - CMD: fastq-dump -N 29861812 -X 30967804 -O /tmp/pfd_wnq505zr/27 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,105 - CMD: fastq-dump -N 30967805 -X 32073797 -O /tmp/pfd_wnq505zr/28 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,107 - CMD: fastq-dump -N 32073798 -X 33179790 -O /tmp/pfd_wnq505zr/29 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,108 - CMD: fastq-dump -N 33179791 -X 34285783 -O /tmp/pfd_wnq505zr/30 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,110 - CMD: fastq-dump -N 34285784 -X 35391776 -O /tmp/pfd_wnq505zr/31 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,111 - CMD: fastq-dump -N 35391777 -X 36497769 -O /tmp/pfd_wnq505zr/32 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,113 - CMD: fastq-dump -N 36497770 -X 37603762 -O /tmp/pfd_wnq505zr/33 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,114 - CMD: fastq-dump -N 37603763 -X 38709755 -O /tmp/pfd_wnq505zr/34 --split-files --gzip SRR29492859
+2024-09-10 17:40:09,115 - CMD: fastq-dump -N 38709756 -X 39815775 -O /tmp/pfd_wnq505zr/35 --split-files --gzip SRR29492859
+2024-09-10 17:45:36,090 - SRR ids: ['SRR29492860']
+2024-09-10 17:45:36,090 - extra args: ['--split-files', '--gzip']
+2024-09-10 17:45:36,092 - tempdir: /tmp/pfd_obw3i9ss
+2024-09-10 17:45:36,092 - CMD: sra-stat --meta --quick SRR29492860
+2024-09-10 17:45:48,020 - SRR29492860 spots: 94403280
+2024-09-10 17:45:48,020 - blocks: [[1, 2622313], [2622314, 5244626], [5244627, 7866939], [7866940, 10489252], [10489253, 13111565], [13111566, 15733878], [15733879, 18356191], [18356192, 20978504], [20978505, 23600817], [23600818, 26223130], [26223131, 28845443], [28845444, 31467756], [31467757, 34090069], [34090070, 36712382], [36712383, 39334695], [39334696, 41957008], [41957009, 44579321], [44579322, 47201634], [47201635, 49823947], [49823948, 52446260], [52446261, 55068573], [55068574, 57690886], [57690887, 60313199], [60313200, 62935512], [62935513, 65557825], [65557826, 68180138], [68180139, 70802451], [70802452, 73424764], [73424765, 76047077], [76047078, 78669390], [78669391, 81291703], [81291704, 83914016], [83914017, 86536329], [86536330, 89158642], [89158643, 91780955], [91780956, 94403280]]
+2024-09-10 17:45:48,021 - CMD: fastq-dump -N 1 -X 2622313 -O /tmp/pfd_obw3i9ss/0 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,023 - CMD: fastq-dump -N 2622314 -X 5244626 -O /tmp/pfd_obw3i9ss/1 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,024 - CMD: fastq-dump -N 5244627 -X 7866939 -O /tmp/pfd_obw3i9ss/2 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,025 - CMD: fastq-dump -N 7866940 -X 10489252 -O /tmp/pfd_obw3i9ss/3 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,026 - CMD: fastq-dump -N 10489253 -X 13111565 -O /tmp/pfd_obw3i9ss/4 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,027 - CMD: fastq-dump -N 13111566 -X 15733878 -O /tmp/pfd_obw3i9ss/5 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,028 - CMD: fastq-dump -N 15733879 -X 18356191 -O /tmp/pfd_obw3i9ss/6 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,029 - CMD: fastq-dump -N 18356192 -X 20978504 -O /tmp/pfd_obw3i9ss/7 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,030 - CMD: fastq-dump -N 20978505 -X 23600817 -O /tmp/pfd_obw3i9ss/8 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,031 - CMD: fastq-dump -N 23600818 -X 26223130 -O /tmp/pfd_obw3i9ss/9 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,032 - CMD: fastq-dump -N 26223131 -X 28845443 -O /tmp/pfd_obw3i9ss/10 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,033 - CMD: fastq-dump -N 28845444 -X 31467756 -O /tmp/pfd_obw3i9ss/11 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,034 - CMD: fastq-dump -N 31467757 -X 34090069 -O /tmp/pfd_obw3i9ss/12 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,036 - CMD: fastq-dump -N 34090070 -X 36712382 -O /tmp/pfd_obw3i9ss/13 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,037 - CMD: fastq-dump -N 36712383 -X 39334695 -O /tmp/pfd_obw3i9ss/14 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,038 - CMD: fastq-dump -N 39334696 -X 41957008 -O /tmp/pfd_obw3i9ss/15 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,039 - CMD: fastq-dump -N 41957009 -X 44579321 -O /tmp/pfd_obw3i9ss/16 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,040 - CMD: fastq-dump -N 44579322 -X 47201634 -O /tmp/pfd_obw3i9ss/17 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,041 - CMD: fastq-dump -N 47201635 -X 49823947 -O /tmp/pfd_obw3i9ss/18 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,043 - CMD: fastq-dump -N 49823948 -X 52446260 -O /tmp/pfd_obw3i9ss/19 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,044 - CMD: fastq-dump -N 52446261 -X 55068573 -O /tmp/pfd_obw3i9ss/20 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,045 - CMD: fastq-dump -N 55068574 -X 57690886 -O /tmp/pfd_obw3i9ss/21 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,047 - CMD: fastq-dump -N 57690887 -X 60313199 -O /tmp/pfd_obw3i9ss/22 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,048 - CMD: fastq-dump -N 60313200 -X 62935512 -O /tmp/pfd_obw3i9ss/23 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,049 - CMD: fastq-dump -N 62935513 -X 65557825 -O /tmp/pfd_obw3i9ss/24 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,051 - CMD: fastq-dump -N 65557826 -X 68180138 -O /tmp/pfd_obw3i9ss/25 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,051 - CMD: fastq-dump -N 68180139 -X 70802451 -O /tmp/pfd_obw3i9ss/26 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,053 - CMD: fastq-dump -N 70802452 -X 73424764 -O /tmp/pfd_obw3i9ss/27 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,054 - CMD: fastq-dump -N 73424765 -X 76047077 -O /tmp/pfd_obw3i9ss/28 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,055 - CMD: fastq-dump -N 76047078 -X 78669390 -O /tmp/pfd_obw3i9ss/29 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,056 - CMD: fastq-dump -N 78669391 -X 81291703 -O /tmp/pfd_obw3i9ss/30 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,057 - CMD: fastq-dump -N 81291704 -X 83914016 -O /tmp/pfd_obw3i9ss/31 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,058 - CMD: fastq-dump -N 83914017 -X 86536329 -O /tmp/pfd_obw3i9ss/32 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,060 - CMD: fastq-dump -N 86536330 -X 89158642 -O /tmp/pfd_obw3i9ss/33 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,061 - CMD: fastq-dump -N 89158643 -X 91780955 -O /tmp/pfd_obw3i9ss/34 --split-files --gzip SRR29492860
+2024-09-10 17:45:48,062 - CMD: fastq-dump -N 91780956 -X 94403280 -O /tmp/pfd_obw3i9ss/35 --split-files --gzip SRR29492860
+2024-09-10 17:56:57,243 - SRR ids: ['SRR29492861']
+2024-09-10 17:56:57,244 - extra args: ['--split-files', '--gzip']
+2024-09-10 17:56:57,246 - tempdir: /tmp/pfd_3cm1lgwd
+2024-09-10 17:56:57,246 - CMD: sra-stat --meta --quick SRR29492861
+2024-09-10 17:57:09,853 - SRR29492861 spots: 65496593
+2024-09-10 17:57:09,853 - blocks: [[1, 1819349], [1819350, 3638698], [3638699, 5458047], [5458048, 7277396], [7277397, 9096745], [9096746, 10916094], [10916095, 12735443], [12735444, 14554792], [14554793, 16374141], [16374142, 18193490], [18193491, 20012839], [20012840, 21832188], [21832189, 23651537], [23651538, 25470886], [25470887, 27290235], [27290236, 29109584], [29109585, 30928933], [30928934, 32748282], [32748283, 34567631], [34567632, 36386980], [36386981, 38206329], [38206330, 40025678], [40025679, 41845027], [41845028, 43664376], [43664377, 45483725], [45483726, 47303074], [47303075, 49122423], [49122424, 50941772], [50941773, 52761121], [52761122, 54580470], [54580471, 56399819], [56399820, 58219168], [58219169, 60038517], [60038518, 61857866], [61857867, 63677215], [63677216, 65496593]]
+2024-09-10 17:57:09,853 - CMD: fastq-dump -N 1 -X 1819349 -O /tmp/pfd_3cm1lgwd/0 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,860 - CMD: fastq-dump -N 1819350 -X 3638698 -O /tmp/pfd_3cm1lgwd/1 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,861 - CMD: fastq-dump -N 3638699 -X 5458047 -O /tmp/pfd_3cm1lgwd/2 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,862 - CMD: fastq-dump -N 5458048 -X 7277396 -O /tmp/pfd_3cm1lgwd/3 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,863 - CMD: fastq-dump -N 7277397 -X 9096745 -O /tmp/pfd_3cm1lgwd/4 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,865 - CMD: fastq-dump -N 9096746 -X 10916094 -O /tmp/pfd_3cm1lgwd/5 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,866 - CMD: fastq-dump -N 10916095 -X 12735443 -O /tmp/pfd_3cm1lgwd/6 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,867 - CMD: fastq-dump -N 12735444 -X 14554792 -O /tmp/pfd_3cm1lgwd/7 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,868 - CMD: fastq-dump -N 14554793 -X 16374141 -O /tmp/pfd_3cm1lgwd/8 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,869 - CMD: fastq-dump -N 16374142 -X 18193490 -O /tmp/pfd_3cm1lgwd/9 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,870 - CMD: fastq-dump -N 18193491 -X 20012839 -O /tmp/pfd_3cm1lgwd/10 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,871 - CMD: fastq-dump -N 20012840 -X 21832188 -O /tmp/pfd_3cm1lgwd/11 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,872 - CMD: fastq-dump -N 21832189 -X 23651537 -O /tmp/pfd_3cm1lgwd/12 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,873 - CMD: fastq-dump -N 23651538 -X 25470886 -O /tmp/pfd_3cm1lgwd/13 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,875 - CMD: fastq-dump -N 25470887 -X 27290235 -O /tmp/pfd_3cm1lgwd/14 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,876 - CMD: fastq-dump -N 27290236 -X 29109584 -O /tmp/pfd_3cm1lgwd/15 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,877 - CMD: fastq-dump -N 29109585 -X 30928933 -O /tmp/pfd_3cm1lgwd/16 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,878 - CMD: fastq-dump -N 30928934 -X 32748282 -O /tmp/pfd_3cm1lgwd/17 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,879 - CMD: fastq-dump -N 32748283 -X 34567631 -O /tmp/pfd_3cm1lgwd/18 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,880 - CMD: fastq-dump -N 34567632 -X 36386980 -O /tmp/pfd_3cm1lgwd/19 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,881 - CMD: fastq-dump -N 36386981 -X 38206329 -O /tmp/pfd_3cm1lgwd/20 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,882 - CMD: fastq-dump -N 38206330 -X 40025678 -O /tmp/pfd_3cm1lgwd/21 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,883 - CMD: fastq-dump -N 40025679 -X 41845027 -O /tmp/pfd_3cm1lgwd/22 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,884 - CMD: fastq-dump -N 41845028 -X 43664376 -O /tmp/pfd_3cm1lgwd/23 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,885 - CMD: fastq-dump -N 43664377 -X 45483725 -O /tmp/pfd_3cm1lgwd/24 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,886 - CMD: fastq-dump -N 45483726 -X 47303074 -O /tmp/pfd_3cm1lgwd/25 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,887 - CMD: fastq-dump -N 47303075 -X 49122423 -O /tmp/pfd_3cm1lgwd/26 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,889 - CMD: fastq-dump -N 49122424 -X 50941772 -O /tmp/pfd_3cm1lgwd/27 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,890 - CMD: fastq-dump -N 50941773 -X 52761121 -O /tmp/pfd_3cm1lgwd/28 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,891 - CMD: fastq-dump -N 52761122 -X 54580470 -O /tmp/pfd_3cm1lgwd/29 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,892 - CMD: fastq-dump -N 54580471 -X 56399819 -O /tmp/pfd_3cm1lgwd/30 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,893 - CMD: fastq-dump -N 56399820 -X 58219168 -O /tmp/pfd_3cm1lgwd/31 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,894 - CMD: fastq-dump -N 58219169 -X 60038517 -O /tmp/pfd_3cm1lgwd/32 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,895 - CMD: fastq-dump -N 60038518 -X 61857866 -O /tmp/pfd_3cm1lgwd/33 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,896 - CMD: fastq-dump -N 61857867 -X 63677215 -O /tmp/pfd_3cm1lgwd/34 --split-files --gzip SRR29492861
+2024-09-10 17:57:09,897 - CMD: fastq-dump -N 63677216 -X 65496593 -O /tmp/pfd_3cm1lgwd/35 --split-files --gzip SRR29492861
+2024-09-10 18:06:03,603 - SRR ids: ['SRR29492862']
+2024-09-10 18:06:03,603 - extra args: ['--split-files', '--gzip']
+2024-09-10 18:06:03,606 - tempdir: /tmp/pfd_uiqjrmhn
+2024-09-10 18:06:03,606 - CMD: sra-stat --meta --quick SRR29492862
+2024-09-10 18:06:16,394 - SRR29492862 spots: 71709391
+2024-09-10 18:06:16,395 - blocks: [[1, 1991927], [1991928, 3983854], [3983855, 5975781], [5975782, 7967708], [7967709, 9959635], [9959636, 11951562], [11951563, 13943489], [13943490, 15935416], [15935417, 17927343], [17927344, 19919270], [19919271, 21911197], [21911198, 23903124], [23903125, 25895051], [25895052, 27886978], [27886979, 29878905], [29878906, 31870832], [31870833, 33862759], [33862760, 35854686], [35854687, 37846613], [37846614, 39838540], [39838541, 41830467], [41830468, 43822394], [43822395, 45814321], [45814322, 47806248], [47806249, 49798175], [49798176, 51790102], [51790103, 53782029], [53782030, 55773956], [55773957, 57765883], [57765884, 59757810], [59757811, 61749737], [61749738, 63741664], [63741665, 65733591], [65733592, 67725518], [67725519, 69717445], [69717446, 71709391]]
+2024-09-10 18:06:16,395 - CMD: fastq-dump -N 1 -X 1991927 -O /tmp/pfd_uiqjrmhn/0 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,400 - CMD: fastq-dump -N 1991928 -X 3983854 -O /tmp/pfd_uiqjrmhn/1 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,402 - CMD: fastq-dump -N 3983855 -X 5975781 -O /tmp/pfd_uiqjrmhn/2 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,403 - CMD: fastq-dump -N 5975782 -X 7967708 -O /tmp/pfd_uiqjrmhn/3 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,404 - CMD: fastq-dump -N 7967709 -X 9959635 -O /tmp/pfd_uiqjrmhn/4 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,406 - CMD: fastq-dump -N 9959636 -X 11951562 -O /tmp/pfd_uiqjrmhn/5 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,407 - CMD: fastq-dump -N 11951563 -X 13943489 -O /tmp/pfd_uiqjrmhn/6 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,408 - CMD: fastq-dump -N 13943490 -X 15935416 -O /tmp/pfd_uiqjrmhn/7 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,410 - CMD: fastq-dump -N 15935417 -X 17927343 -O /tmp/pfd_uiqjrmhn/8 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,411 - CMD: fastq-dump -N 17927344 -X 19919270 -O /tmp/pfd_uiqjrmhn/9 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,412 - CMD: fastq-dump -N 19919271 -X 21911197 -O /tmp/pfd_uiqjrmhn/10 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,414 - CMD: fastq-dump -N 21911198 -X 23903124 -O /tmp/pfd_uiqjrmhn/11 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,415 - CMD: fastq-dump -N 23903125 -X 25895051 -O /tmp/pfd_uiqjrmhn/12 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,416 - CMD: fastq-dump -N 25895052 -X 27886978 -O /tmp/pfd_uiqjrmhn/13 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,417 - CMD: fastq-dump -N 27886979 -X 29878905 -O /tmp/pfd_uiqjrmhn/14 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,418 - CMD: fastq-dump -N 29878906 -X 31870832 -O /tmp/pfd_uiqjrmhn/15 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,419 - CMD: fastq-dump -N 31870833 -X 33862759 -O /tmp/pfd_uiqjrmhn/16 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,420 - CMD: fastq-dump -N 33862760 -X 35854686 -O /tmp/pfd_uiqjrmhn/17 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,421 - CMD: fastq-dump -N 35854687 -X 37846613 -O /tmp/pfd_uiqjrmhn/18 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,423 - CMD: fastq-dump -N 37846614 -X 39838540 -O /tmp/pfd_uiqjrmhn/19 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,424 - CMD: fastq-dump -N 39838541 -X 41830467 -O /tmp/pfd_uiqjrmhn/20 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,425 - CMD: fastq-dump -N 41830468 -X 43822394 -O /tmp/pfd_uiqjrmhn/21 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,426 - CMD: fastq-dump -N 43822395 -X 45814321 -O /tmp/pfd_uiqjrmhn/22 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,427 - CMD: fastq-dump -N 45814322 -X 47806248 -O /tmp/pfd_uiqjrmhn/23 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,428 - CMD: fastq-dump -N 47806249 -X 49798175 -O /tmp/pfd_uiqjrmhn/24 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,429 - CMD: fastq-dump -N 49798176 -X 51790102 -O /tmp/pfd_uiqjrmhn/25 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,431 - CMD: fastq-dump -N 51790103 -X 53782029 -O /tmp/pfd_uiqjrmhn/26 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,432 - CMD: fastq-dump -N 53782030 -X 55773956 -O /tmp/pfd_uiqjrmhn/27 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,434 - CMD: fastq-dump -N 55773957 -X 57765883 -O /tmp/pfd_uiqjrmhn/28 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,435 - CMD: fastq-dump -N 57765884 -X 59757810 -O /tmp/pfd_uiqjrmhn/29 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,436 - CMD: fastq-dump -N 59757811 -X 61749737 -O /tmp/pfd_uiqjrmhn/30 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,437 - CMD: fastq-dump -N 61749738 -X 63741664 -O /tmp/pfd_uiqjrmhn/31 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,438 - CMD: fastq-dump -N 63741665 -X 65733591 -O /tmp/pfd_uiqjrmhn/32 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,439 - CMD: fastq-dump -N 65733592 -X 67725518 -O /tmp/pfd_uiqjrmhn/33 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,440 - CMD: fastq-dump -N 67725519 -X 69717445 -O /tmp/pfd_uiqjrmhn/34 --split-files --gzip SRR29492862
+2024-09-10 18:06:16,442 - CMD: fastq-dump -N 69717446 -X 71709391 -O /tmp/pfd_uiqjrmhn/35 --split-files --gzip SRR29492862
+2024-09-10 18:14:59,529 - SRR ids: ['SRR29492863']
+2024-09-10 18:14:59,529 - extra args: ['--split-files', '--gzip']
+2024-09-10 18:14:59,531 - tempdir: /tmp/pfd__gsv4qab
+2024-09-10 18:14:59,531 - CMD: sra-stat --meta --quick SRR29492863
+2024-09-10 18:15:12,899 - SRR29492863 spots: 69879175
+2024-09-10 18:15:12,900 - blocks: [[1, 1941088], [1941089, 3882176], [3882177, 5823264], [5823265, 7764352], [7764353, 9705440], [9705441, 11646528], [11646529, 13587616], [13587617, 15528704], [15528705, 17469792], [17469793, 19410880], [19410881, 21351968], [21351969, 23293056], [23293057, 25234144], [25234145, 27175232], [27175233, 29116320], [29116321, 31057408], [31057409, 32998496], [32998497, 34939584], [34939585, 36880672], [36880673, 38821760], [38821761, 40762848], [40762849, 42703936], [42703937, 44645024], [44645025, 46586112], [46586113, 48527200], [48527201, 50468288], [50468289, 52409376], [52409377, 54350464], [54350465, 56291552], [56291553, 58232640], [58232641, 60173728], [60173729, 62114816], [62114817, 64055904], [64055905, 65996992], [65996993, 67938080], [67938081, 69879175]]
+2024-09-10 18:15:12,900 - CMD: fastq-dump -N 1 -X 1941088 -O /tmp/pfd__gsv4qab/0 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,903 - CMD: fastq-dump -N 1941089 -X 3882176 -O /tmp/pfd__gsv4qab/1 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,905 - CMD: fastq-dump -N 3882177 -X 5823264 -O /tmp/pfd__gsv4qab/2 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,906 - CMD: fastq-dump -N 5823265 -X 7764352 -O /tmp/pfd__gsv4qab/3 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,908 - CMD: fastq-dump -N 7764353 -X 9705440 -O /tmp/pfd__gsv4qab/4 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,909 - CMD: fastq-dump -N 9705441 -X 11646528 -O /tmp/pfd__gsv4qab/5 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,910 - CMD: fastq-dump -N 11646529 -X 13587616 -O /tmp/pfd__gsv4qab/6 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,911 - CMD: fastq-dump -N 13587617 -X 15528704 -O /tmp/pfd__gsv4qab/7 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,912 - CMD: fastq-dump -N 15528705 -X 17469792 -O /tmp/pfd__gsv4qab/8 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,914 - CMD: fastq-dump -N 17469793 -X 19410880 -O /tmp/pfd__gsv4qab/9 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,915 - CMD: fastq-dump -N 19410881 -X 21351968 -O /tmp/pfd__gsv4qab/10 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,916 - CMD: fastq-dump -N 21351969 -X 23293056 -O /tmp/pfd__gsv4qab/11 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,918 - CMD: fastq-dump -N 23293057 -X 25234144 -O /tmp/pfd__gsv4qab/12 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,919 - CMD: fastq-dump -N 25234145 -X 27175232 -O /tmp/pfd__gsv4qab/13 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,920 - CMD: fastq-dump -N 27175233 -X 29116320 -O /tmp/pfd__gsv4qab/14 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,921 - CMD: fastq-dump -N 29116321 -X 31057408 -O /tmp/pfd__gsv4qab/15 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,923 - CMD: fastq-dump -N 31057409 -X 32998496 -O /tmp/pfd__gsv4qab/16 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,924 - CMD: fastq-dump -N 32998497 -X 34939584 -O /tmp/pfd__gsv4qab/17 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,925 - CMD: fastq-dump -N 34939585 -X 36880672 -O /tmp/pfd__gsv4qab/18 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,927 - CMD: fastq-dump -N 36880673 -X 38821760 -O /tmp/pfd__gsv4qab/19 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,928 - CMD: fastq-dump -N 38821761 -X 40762848 -O /tmp/pfd__gsv4qab/20 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,929 - CMD: fastq-dump -N 40762849 -X 42703936 -O /tmp/pfd__gsv4qab/21 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,930 - CMD: fastq-dump -N 42703937 -X 44645024 -O /tmp/pfd__gsv4qab/22 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,931 - CMD: fastq-dump -N 44645025 -X 46586112 -O /tmp/pfd__gsv4qab/23 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,933 - CMD: fastq-dump -N 46586113 -X 48527200 -O /tmp/pfd__gsv4qab/24 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,934 - CMD: fastq-dump -N 48527201 -X 50468288 -O /tmp/pfd__gsv4qab/25 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,936 - CMD: fastq-dump -N 50468289 -X 52409376 -O /tmp/pfd__gsv4qab/26 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,937 - CMD: fastq-dump -N 52409377 -X 54350464 -O /tmp/pfd__gsv4qab/27 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,938 - CMD: fastq-dump -N 54350465 -X 56291552 -O /tmp/pfd__gsv4qab/28 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,939 - CMD: fastq-dump -N 56291553 -X 58232640 -O /tmp/pfd__gsv4qab/29 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,940 - CMD: fastq-dump -N 58232641 -X 60173728 -O /tmp/pfd__gsv4qab/30 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,942 - CMD: fastq-dump -N 60173729 -X 62114816 -O /tmp/pfd__gsv4qab/31 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,943 - CMD: fastq-dump -N 62114817 -X 64055904 -O /tmp/pfd__gsv4qab/32 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,945 - CMD: fastq-dump -N 64055905 -X 65996992 -O /tmp/pfd__gsv4qab/33 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,946 - CMD: fastq-dump -N 65996993 -X 67938080 -O /tmp/pfd__gsv4qab/34 --split-files --gzip SRR29492863
+2024-09-10 18:15:12,947 - CMD: fastq-dump -N 67938081 -X 69879175 -O /tmp/pfd__gsv4qab/35 --split-files --gzip SRR29492863
+2024-09-10 18:23:36,252 - SRR ids: ['SRR29492864']
+2024-09-10 18:23:36,252 - extra args: ['--split-files', '--gzip']
+2024-09-10 18:23:36,255 - tempdir: /tmp/pfd_dzyh6pgj
+2024-09-10 18:23:36,255 - CMD: sra-stat --meta --quick SRR29492864
+2024-09-10 18:23:48,924 - SRR29492864 spots: 105072553
+2024-09-10 18:23:48,924 - blocks: [[1, 2918682], [2918683, 5837364], [5837365, 8756046], [8756047, 11674728], [11674729, 14593410], [14593411, 17512092], [17512093, 20430774], [20430775, 23349456], [23349457, 26268138], [26268139, 29186820], [29186821, 32105502], [32105503, 35024184], [35024185, 37942866], [37942867, 40861548], [40861549, 43780230], [43780231, 46698912], [46698913, 49617594], [49617595, 52536276], [52536277, 55454958], [55454959, 58373640], [58373641, 61292322], [61292323, 64211004], [64211005, 67129686], [67129687, 70048368], [70048369, 72967050], [72967051, 75885732], [75885733, 78804414], [78804415, 81723096], [81723097, 84641778], [84641779, 87560460], [87560461, 90479142], [90479143, 93397824], [93397825, 96316506], [96316507, 99235188], [99235189, 102153870], [102153871, 105072553]]
+2024-09-10 18:23:48,925 - CMD: fastq-dump -N 1 -X 2918682 -O /tmp/pfd_dzyh6pgj/0 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,928 - CMD: fastq-dump -N 2918683 -X 5837364 -O /tmp/pfd_dzyh6pgj/1 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,929 - CMD: fastq-dump -N 5837365 -X 8756046 -O /tmp/pfd_dzyh6pgj/2 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,930 - CMD: fastq-dump -N 8756047 -X 11674728 -O /tmp/pfd_dzyh6pgj/3 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,932 - CMD: fastq-dump -N 11674729 -X 14593410 -O /tmp/pfd_dzyh6pgj/4 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,933 - CMD: fastq-dump -N 14593411 -X 17512092 -O /tmp/pfd_dzyh6pgj/5 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,935 - CMD: fastq-dump -N 17512093 -X 20430774 -O /tmp/pfd_dzyh6pgj/6 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,936 - CMD: fastq-dump -N 20430775 -X 23349456 -O /tmp/pfd_dzyh6pgj/7 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,937 - CMD: fastq-dump -N 23349457 -X 26268138 -O /tmp/pfd_dzyh6pgj/8 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,938 - CMD: fastq-dump -N 26268139 -X 29186820 -O /tmp/pfd_dzyh6pgj/9 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,940 - CMD: fastq-dump -N 29186821 -X 32105502 -O /tmp/pfd_dzyh6pgj/10 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,941 - CMD: fastq-dump -N 32105503 -X 35024184 -O /tmp/pfd_dzyh6pgj/11 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,943 - CMD: fastq-dump -N 35024185 -X 37942866 -O /tmp/pfd_dzyh6pgj/12 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,944 - CMD: fastq-dump -N 37942867 -X 40861548 -O /tmp/pfd_dzyh6pgj/13 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,945 - CMD: fastq-dump -N 40861549 -X 43780230 -O /tmp/pfd_dzyh6pgj/14 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,946 - CMD: fastq-dump -N 43780231 -X 46698912 -O /tmp/pfd_dzyh6pgj/15 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,947 - CMD: fastq-dump -N 46698913 -X 49617594 -O /tmp/pfd_dzyh6pgj/16 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,949 - CMD: fastq-dump -N 49617595 -X 52536276 -O /tmp/pfd_dzyh6pgj/17 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,950 - CMD: fastq-dump -N 52536277 -X 55454958 -O /tmp/pfd_dzyh6pgj/18 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,951 - CMD: fastq-dump -N 55454959 -X 58373640 -O /tmp/pfd_dzyh6pgj/19 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,953 - CMD: fastq-dump -N 58373641 -X 61292322 -O /tmp/pfd_dzyh6pgj/20 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,954 - CMD: fastq-dump -N 61292323 -X 64211004 -O /tmp/pfd_dzyh6pgj/21 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,956 - CMD: fastq-dump -N 64211005 -X 67129686 -O /tmp/pfd_dzyh6pgj/22 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,957 - CMD: fastq-dump -N 67129687 -X 70048368 -O /tmp/pfd_dzyh6pgj/23 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,958 - CMD: fastq-dump -N 70048369 -X 72967050 -O /tmp/pfd_dzyh6pgj/24 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,959 - CMD: fastq-dump -N 72967051 -X 75885732 -O /tmp/pfd_dzyh6pgj/25 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,960 - CMD: fastq-dump -N 75885733 -X 78804414 -O /tmp/pfd_dzyh6pgj/26 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,961 - CMD: fastq-dump -N 78804415 -X 81723096 -O /tmp/pfd_dzyh6pgj/27 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,963 - CMD: fastq-dump -N 81723097 -X 84641778 -O /tmp/pfd_dzyh6pgj/28 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,964 - CMD: fastq-dump -N 84641779 -X 87560460 -O /tmp/pfd_dzyh6pgj/29 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,965 - CMD: fastq-dump -N 87560461 -X 90479142 -O /tmp/pfd_dzyh6pgj/30 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,967 - CMD: fastq-dump -N 90479143 -X 93397824 -O /tmp/pfd_dzyh6pgj/31 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,968 - CMD: fastq-dump -N 93397825 -X 96316506 -O /tmp/pfd_dzyh6pgj/32 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,970 - CMD: fastq-dump -N 96316507 -X 99235188 -O /tmp/pfd_dzyh6pgj/33 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,971 - CMD: fastq-dump -N 99235189 -X 102153870 -O /tmp/pfd_dzyh6pgj/34 --split-files --gzip SRR29492864
+2024-09-10 18:23:48,972 - CMD: fastq-dump -N 102153871 -X 105072553 -O /tmp/pfd_dzyh6pgj/35 --split-files --gzip SRR29492864
+2024-09-10 18:37:36,233 - SRR ids: ['SRR29492865']
+2024-09-10 18:37:36,233 - extra args: ['--split-files', '--gzip']
+2024-09-10 18:37:36,235 - tempdir: /tmp/pfd_xr8ermyh
+2024-09-10 18:37:36,236 - CMD: sra-stat --meta --quick SRR29492865
+2024-09-10 18:37:49,357 - SRR29492865 spots: 92932991
+2024-09-10 18:37:49,358 - blocks: [[1, 2581471], [2581472, 5162942], [5162943, 7744413], [7744414, 10325884], [10325885, 12907355], [12907356, 15488826], [15488827, 18070297], [18070298, 20651768], [20651769, 23233239], [23233240, 25814710], [25814711, 28396181], [28396182, 30977652], [30977653, 33559123], [33559124, 36140594], [36140595, 38722065], [38722066, 41303536], [41303537, 43885007], [43885008, 46466478], [46466479, 49047949], [49047950, 51629420], [51629421, 54210891], [54210892, 56792362], [56792363, 59373833], [59373834, 61955304], [61955305, 64536775], [64536776, 67118246], [67118247, 69699717], [69699718, 72281188], [72281189, 74862659], [74862660, 77444130], [77444131, 80025601], [80025602, 82607072], [82607073, 85188543], [85188544, 87770014], [87770015, 90351485], [90351486, 92932991]]
+2024-09-10 18:37:49,358 - CMD: fastq-dump -N 1 -X 2581471 -O /tmp/pfd_xr8ermyh/0 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,365 - CMD: fastq-dump -N 2581472 -X 5162942 -O /tmp/pfd_xr8ermyh/1 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,367 - CMD: fastq-dump -N 5162943 -X 7744413 -O /tmp/pfd_xr8ermyh/2 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,368 - CMD: fastq-dump -N 7744414 -X 10325884 -O /tmp/pfd_xr8ermyh/3 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,369 - CMD: fastq-dump -N 10325885 -X 12907355 -O /tmp/pfd_xr8ermyh/4 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,371 - CMD: fastq-dump -N 12907356 -X 15488826 -O /tmp/pfd_xr8ermyh/5 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,372 - CMD: fastq-dump -N 15488827 -X 18070297 -O /tmp/pfd_xr8ermyh/6 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,373 - CMD: fastq-dump -N 18070298 -X 20651768 -O /tmp/pfd_xr8ermyh/7 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,375 - CMD: fastq-dump -N 20651769 -X 23233239 -O /tmp/pfd_xr8ermyh/8 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,376 - CMD: fastq-dump -N 23233240 -X 25814710 -O /tmp/pfd_xr8ermyh/9 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,377 - CMD: fastq-dump -N 25814711 -X 28396181 -O /tmp/pfd_xr8ermyh/10 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,379 - CMD: fastq-dump -N 28396182 -X 30977652 -O /tmp/pfd_xr8ermyh/11 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,380 - CMD: fastq-dump -N 30977653 -X 33559123 -O /tmp/pfd_xr8ermyh/12 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,381 - CMD: fastq-dump -N 33559124 -X 36140594 -O /tmp/pfd_xr8ermyh/13 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,382 - CMD: fastq-dump -N 36140595 -X 38722065 -O /tmp/pfd_xr8ermyh/14 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,384 - CMD: fastq-dump -N 38722066 -X 41303536 -O /tmp/pfd_xr8ermyh/15 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,385 - CMD: fastq-dump -N 41303537 -X 43885007 -O /tmp/pfd_xr8ermyh/16 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,386 - CMD: fastq-dump -N 43885008 -X 46466478 -O /tmp/pfd_xr8ermyh/17 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,388 - CMD: fastq-dump -N 46466479 -X 49047949 -O /tmp/pfd_xr8ermyh/18 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,389 - CMD: fastq-dump -N 49047950 -X 51629420 -O /tmp/pfd_xr8ermyh/19 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,390 - CMD: fastq-dump -N 51629421 -X 54210891 -O /tmp/pfd_xr8ermyh/20 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,392 - CMD: fastq-dump -N 54210892 -X 56792362 -O /tmp/pfd_xr8ermyh/21 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,393 - CMD: fastq-dump -N 56792363 -X 59373833 -O /tmp/pfd_xr8ermyh/22 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,394 - CMD: fastq-dump -N 59373834 -X 61955304 -O /tmp/pfd_xr8ermyh/23 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,396 - CMD: fastq-dump -N 61955305 -X 64536775 -O /tmp/pfd_xr8ermyh/24 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,397 - CMD: fastq-dump -N 64536776 -X 67118246 -O /tmp/pfd_xr8ermyh/25 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,400 - CMD: fastq-dump -N 67118247 -X 69699717 -O /tmp/pfd_xr8ermyh/26 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,402 - CMD: fastq-dump -N 69699718 -X 72281188 -O /tmp/pfd_xr8ermyh/27 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,403 - CMD: fastq-dump -N 72281189 -X 74862659 -O /tmp/pfd_xr8ermyh/28 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,404 - CMD: fastq-dump -N 74862660 -X 77444130 -O /tmp/pfd_xr8ermyh/29 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,406 - CMD: fastq-dump -N 77444131 -X 80025601 -O /tmp/pfd_xr8ermyh/30 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,407 - CMD: fastq-dump -N 80025602 -X 82607072 -O /tmp/pfd_xr8ermyh/31 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,408 - CMD: fastq-dump -N 82607073 -X 85188543 -O /tmp/pfd_xr8ermyh/32 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,410 - CMD: fastq-dump -N 85188544 -X 87770014 -O /tmp/pfd_xr8ermyh/33 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,411 - CMD: fastq-dump -N 87770015 -X 90351485 -O /tmp/pfd_xr8ermyh/34 --split-files --gzip SRR29492865
+2024-09-10 18:37:49,412 - CMD: fastq-dump -N 90351486 -X 92932991 -O /tmp/pfd_xr8ermyh/35 --split-files --gzip SRR29492865
+2024-09-10 18:50:03,838 - SRR ids: ['SRR29492866']
+2024-09-10 18:50:03,838 - extra args: ['--split-files', '--gzip']
+2024-09-10 18:50:03,841 - tempdir: /tmp/pfd_tj6ho8zl
+2024-09-10 18:50:03,841 - CMD: sra-stat --meta --quick SRR29492866
+2024-09-10 18:50:18,595 - SRR29492866 spots: 104756210
+2024-09-10 18:50:18,595 - blocks: [[1, 2909894], [2909895, 5819788], [5819789, 8729682], [8729683, 11639576], [11639577, 14549470], [14549471, 17459364], [17459365, 20369258], [20369259, 23279152], [23279153, 26189046], [26189047, 29098940], [29098941, 32008834], [32008835, 34918728], [34918729, 37828622], [37828623, 40738516], [40738517, 43648410], [43648411, 46558304], [46558305, 49468198], [49468199, 52378092], [52378093, 55287986], [55287987, 58197880], [58197881, 61107774], [61107775, 64017668], [64017669, 66927562], [66927563, 69837456], [69837457, 72747350], [72747351, 75657244], [75657245, 78567138], [78567139, 81477032], [81477033, 84386926], [84386927, 87296820], [87296821, 90206714], [90206715, 93116608], [93116609, 96026502], [96026503, 98936396], [98936397, 101846290], [101846291, 104756210]]
+2024-09-10 18:50:18,596 - CMD: fastq-dump -N 1 -X 2909894 -O /tmp/pfd_tj6ho8zl/0 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,601 - CMD: fastq-dump -N 2909895 -X 5819788 -O /tmp/pfd_tj6ho8zl/1 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,603 - CMD: fastq-dump -N 5819789 -X 8729682 -O /tmp/pfd_tj6ho8zl/2 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,604 - CMD: fastq-dump -N 8729683 -X 11639576 -O /tmp/pfd_tj6ho8zl/3 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,606 - CMD: fastq-dump -N 11639577 -X 14549470 -O /tmp/pfd_tj6ho8zl/4 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,607 - CMD: fastq-dump -N 14549471 -X 17459364 -O /tmp/pfd_tj6ho8zl/5 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,608 - CMD: fastq-dump -N 17459365 -X 20369258 -O /tmp/pfd_tj6ho8zl/6 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,610 - CMD: fastq-dump -N 20369259 -X 23279152 -O /tmp/pfd_tj6ho8zl/7 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,611 - CMD: fastq-dump -N 23279153 -X 26189046 -O /tmp/pfd_tj6ho8zl/8 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,613 - CMD: fastq-dump -N 26189047 -X 29098940 -O /tmp/pfd_tj6ho8zl/9 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,614 - CMD: fastq-dump -N 29098941 -X 32008834 -O /tmp/pfd_tj6ho8zl/10 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,615 - CMD: fastq-dump -N 32008835 -X 34918728 -O /tmp/pfd_tj6ho8zl/11 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,617 - CMD: fastq-dump -N 34918729 -X 37828622 -O /tmp/pfd_tj6ho8zl/12 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,618 - CMD: fastq-dump -N 37828623 -X 40738516 -O /tmp/pfd_tj6ho8zl/13 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,619 - CMD: fastq-dump -N 40738517 -X 43648410 -O /tmp/pfd_tj6ho8zl/14 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,620 - CMD: fastq-dump -N 43648411 -X 46558304 -O /tmp/pfd_tj6ho8zl/15 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,622 - CMD: fastq-dump -N 46558305 -X 49468198 -O /tmp/pfd_tj6ho8zl/16 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,623 - CMD: fastq-dump -N 49468199 -X 52378092 -O /tmp/pfd_tj6ho8zl/17 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,624 - CMD: fastq-dump -N 52378093 -X 55287986 -O /tmp/pfd_tj6ho8zl/18 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,626 - CMD: fastq-dump -N 55287987 -X 58197880 -O /tmp/pfd_tj6ho8zl/19 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,627 - CMD: fastq-dump -N 58197881 -X 61107774 -O /tmp/pfd_tj6ho8zl/20 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,629 - CMD: fastq-dump -N 61107775 -X 64017668 -O /tmp/pfd_tj6ho8zl/21 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,630 - CMD: fastq-dump -N 64017669 -X 66927562 -O /tmp/pfd_tj6ho8zl/22 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,631 - CMD: fastq-dump -N 66927563 -X 69837456 -O /tmp/pfd_tj6ho8zl/23 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,632 - CMD: fastq-dump -N 69837457 -X 72747350 -O /tmp/pfd_tj6ho8zl/24 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,633 - CMD: fastq-dump -N 72747351 -X 75657244 -O /tmp/pfd_tj6ho8zl/25 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,635 - CMD: fastq-dump -N 75657245 -X 78567138 -O /tmp/pfd_tj6ho8zl/26 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,636 - CMD: fastq-dump -N 78567139 -X 81477032 -O /tmp/pfd_tj6ho8zl/27 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,637 - CMD: fastq-dump -N 81477033 -X 84386926 -O /tmp/pfd_tj6ho8zl/28 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,639 - CMD: fastq-dump -N 84386927 -X 87296820 -O /tmp/pfd_tj6ho8zl/29 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,640 - CMD: fastq-dump -N 87296821 -X 90206714 -O /tmp/pfd_tj6ho8zl/30 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,641 - CMD: fastq-dump -N 90206715 -X 93116608 -O /tmp/pfd_tj6ho8zl/31 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,643 - CMD: fastq-dump -N 93116609 -X 96026502 -O /tmp/pfd_tj6ho8zl/32 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,644 - CMD: fastq-dump -N 96026503 -X 98936396 -O /tmp/pfd_tj6ho8zl/33 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,646 - CMD: fastq-dump -N 98936397 -X 101846290 -O /tmp/pfd_tj6ho8zl/34 --split-files --gzip SRR29492866
+2024-09-10 18:50:18,647 - CMD: fastq-dump -N 101846291 -X 104756210 -O /tmp/pfd_tj6ho8zl/35 --split-files --gzip SRR29492866
+2024-09-10 19:10:01,437 - SRR ids: ['SRR29492867']
+2024-09-10 19:10:01,437 - extra args: ['--split-files', '--gzip']
+2024-09-10 19:10:01,440 - tempdir: /tmp/pfd_b00ayybl
+2024-09-10 19:10:01,440 - CMD: sra-stat --meta --quick SRR29492867
+2024-09-10 19:10:33,914 - SRR29492867 spots: 117474743
+2024-09-10 19:10:33,915 - blocks: [[1, 3263187], [3263188, 6526374], [6526375, 9789561], [9789562, 13052748], [13052749, 16315935], [16315936, 19579122], [19579123, 22842309], [22842310, 26105496], [26105497, 29368683], [29368684, 32631870], [32631871, 35895057], [35895058, 39158244], [39158245, 42421431], [42421432, 45684618], [45684619, 48947805], [48947806, 52210992], [52210993, 55474179], [55474180, 58737366], [58737367, 62000553], [62000554, 65263740], [65263741, 68526927], [68526928, 71790114], [71790115, 75053301], [75053302, 78316488], [78316489, 81579675], [81579676, 84842862], [84842863, 88106049], [88106050, 91369236], [91369237, 94632423], [94632424, 97895610], [97895611, 101158797], [101158798, 104421984], [104421985, 107685171], [107685172, 110948358], [110948359, 114211545], [114211546, 117474743]]
+2024-09-10 19:10:33,915 - CMD: fastq-dump -N 1 -X 3263187 -O /tmp/pfd_b00ayybl/0 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,921 - CMD: fastq-dump -N 3263188 -X 6526374 -O /tmp/pfd_b00ayybl/1 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,923 - CMD: fastq-dump -N 6526375 -X 9789561 -O /tmp/pfd_b00ayybl/2 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,924 - CMD: fastq-dump -N 9789562 -X 13052748 -O /tmp/pfd_b00ayybl/3 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,925 - CMD: fastq-dump -N 13052749 -X 16315935 -O /tmp/pfd_b00ayybl/4 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,927 - CMD: fastq-dump -N 16315936 -X 19579122 -O /tmp/pfd_b00ayybl/5 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,928 - CMD: fastq-dump -N 19579123 -X 22842309 -O /tmp/pfd_b00ayybl/6 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,929 - CMD: fastq-dump -N 22842310 -X 26105496 -O /tmp/pfd_b00ayybl/7 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,931 - CMD: fastq-dump -N 26105497 -X 29368683 -O /tmp/pfd_b00ayybl/8 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,933 - CMD: fastq-dump -N 29368684 -X 32631870 -O /tmp/pfd_b00ayybl/9 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,934 - CMD: fastq-dump -N 32631871 -X 35895057 -O /tmp/pfd_b00ayybl/10 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,936 - CMD: fastq-dump -N 35895058 -X 39158244 -O /tmp/pfd_b00ayybl/11 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,937 - CMD: fastq-dump -N 39158245 -X 42421431 -O /tmp/pfd_b00ayybl/12 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,938 - CMD: fastq-dump -N 42421432 -X 45684618 -O /tmp/pfd_b00ayybl/13 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,939 - CMD: fastq-dump -N 45684619 -X 48947805 -O /tmp/pfd_b00ayybl/14 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,941 - CMD: fastq-dump -N 48947806 -X 52210992 -O /tmp/pfd_b00ayybl/15 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,942 - CMD: fastq-dump -N 52210993 -X 55474179 -O /tmp/pfd_b00ayybl/16 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,943 - CMD: fastq-dump -N 55474180 -X 58737366 -O /tmp/pfd_b00ayybl/17 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,945 - CMD: fastq-dump -N 58737367 -X 62000553 -O /tmp/pfd_b00ayybl/18 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,946 - CMD: fastq-dump -N 62000554 -X 65263740 -O /tmp/pfd_b00ayybl/19 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,947 - CMD: fastq-dump -N 65263741 -X 68526927 -O /tmp/pfd_b00ayybl/20 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,949 - CMD: fastq-dump -N 68526928 -X 71790114 -O /tmp/pfd_b00ayybl/21 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,950 - CMD: fastq-dump -N 71790115 -X 75053301 -O /tmp/pfd_b00ayybl/22 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,951 - CMD: fastq-dump -N 75053302 -X 78316488 -O /tmp/pfd_b00ayybl/23 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,953 - CMD: fastq-dump -N 78316489 -X 81579675 -O /tmp/pfd_b00ayybl/24 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,954 - CMD: fastq-dump -N 81579676 -X 84842862 -O /tmp/pfd_b00ayybl/25 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,955 - CMD: fastq-dump -N 84842863 -X 88106049 -O /tmp/pfd_b00ayybl/26 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,956 - CMD: fastq-dump -N 88106050 -X 91369236 -O /tmp/pfd_b00ayybl/27 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,957 - CMD: fastq-dump -N 91369237 -X 94632423 -O /tmp/pfd_b00ayybl/28 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,958 - CMD: fastq-dump -N 94632424 -X 97895610 -O /tmp/pfd_b00ayybl/29 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,960 - CMD: fastq-dump -N 97895611 -X 101158797 -O /tmp/pfd_b00ayybl/30 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,961 - CMD: fastq-dump -N 101158798 -X 104421984 -O /tmp/pfd_b00ayybl/31 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,962 - CMD: fastq-dump -N 104421985 -X 107685171 -O /tmp/pfd_b00ayybl/32 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,964 - CMD: fastq-dump -N 107685172 -X 110948358 -O /tmp/pfd_b00ayybl/33 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,966 - CMD: fastq-dump -N 110948359 -X 114211545 -O /tmp/pfd_b00ayybl/34 --split-files --gzip SRR29492867
+2024-09-10 19:10:33,967 - CMD: fastq-dump -N 114211546 -X 117474743 -O /tmp/pfd_b00ayybl/35 --split-files --gzip SRR29492867
+2024-09-10 21:03:33,168 - SRR ids: ['SRR29492868']
+2024-09-10 21:03:33,168 - extra args: ['--split-files', '--gzip']
+2024-09-10 21:03:33,170 - tempdir: /tmp/pfd_avh81e6j
+2024-09-10 21:03:33,170 - CMD: sra-stat --meta --quick SRR29492868
+2024-09-10 21:04:07,655 - SRR29492868 spots: 68305244
+2024-09-10 21:04:07,655 - blocks: [[1, 1897367], [1897368, 3794734], [3794735, 5692101], [5692102, 7589468], [7589469, 9486835], [9486836, 11384202], [11384203, 13281569], [13281570, 15178936], [15178937, 17076303], [17076304, 18973670], [18973671, 20871037], [20871038, 22768404], [22768405, 24665771], [24665772, 26563138], [26563139, 28460505], [28460506, 30357872], [30357873, 32255239], [32255240, 34152606], [34152607, 36049973], [36049974, 37947340], [37947341, 39844707], [39844708, 41742074], [41742075, 43639441], [43639442, 45536808], [45536809, 47434175], [47434176, 49331542], [49331543, 51228909], [51228910, 53126276], [53126277, 55023643], [55023644, 56921010], [56921011, 58818377], [58818378, 60715744], [60715745, 62613111], [62613112, 64510478], [64510479, 66407845], [66407846, 68305244]]
+2024-09-10 21:04:07,655 - CMD: fastq-dump -N 1 -X 1897367 -O /tmp/pfd_avh81e6j/0 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,661 - CMD: fastq-dump -N 1897368 -X 3794734 -O /tmp/pfd_avh81e6j/1 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,662 - CMD: fastq-dump -N 3794735 -X 5692101 -O /tmp/pfd_avh81e6j/2 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,663 - CMD: fastq-dump -N 5692102 -X 7589468 -O /tmp/pfd_avh81e6j/3 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,664 - CMD: fastq-dump -N 7589469 -X 9486835 -O /tmp/pfd_avh81e6j/4 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,665 - CMD: fastq-dump -N 9486836 -X 11384202 -O /tmp/pfd_avh81e6j/5 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,667 - CMD: fastq-dump -N 11384203 -X 13281569 -O /tmp/pfd_avh81e6j/6 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,668 - CMD: fastq-dump -N 13281570 -X 15178936 -O /tmp/pfd_avh81e6j/7 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,669 - CMD: fastq-dump -N 15178937 -X 17076303 -O /tmp/pfd_avh81e6j/8 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,670 - CMD: fastq-dump -N 17076304 -X 18973670 -O /tmp/pfd_avh81e6j/9 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,671 - CMD: fastq-dump -N 18973671 -X 20871037 -O /tmp/pfd_avh81e6j/10 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,672 - CMD: fastq-dump -N 20871038 -X 22768404 -O /tmp/pfd_avh81e6j/11 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,673 - CMD: fastq-dump -N 22768405 -X 24665771 -O /tmp/pfd_avh81e6j/12 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,674 - CMD: fastq-dump -N 24665772 -X 26563138 -O /tmp/pfd_avh81e6j/13 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,675 - CMD: fastq-dump -N 26563139 -X 28460505 -O /tmp/pfd_avh81e6j/14 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,676 - CMD: fastq-dump -N 28460506 -X 30357872 -O /tmp/pfd_avh81e6j/15 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,677 - CMD: fastq-dump -N 30357873 -X 32255239 -O /tmp/pfd_avh81e6j/16 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,678 - CMD: fastq-dump -N 32255240 -X 34152606 -O /tmp/pfd_avh81e6j/17 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,679 - CMD: fastq-dump -N 34152607 -X 36049973 -O /tmp/pfd_avh81e6j/18 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,680 - CMD: fastq-dump -N 36049974 -X 37947340 -O /tmp/pfd_avh81e6j/19 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,681 - CMD: fastq-dump -N 37947341 -X 39844707 -O /tmp/pfd_avh81e6j/20 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,683 - CMD: fastq-dump -N 39844708 -X 41742074 -O /tmp/pfd_avh81e6j/21 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,684 - CMD: fastq-dump -N 41742075 -X 43639441 -O /tmp/pfd_avh81e6j/22 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,685 - CMD: fastq-dump -N 43639442 -X 45536808 -O /tmp/pfd_avh81e6j/23 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,686 - CMD: fastq-dump -N 45536809 -X 47434175 -O /tmp/pfd_avh81e6j/24 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,687 - CMD: fastq-dump -N 47434176 -X 49331542 -O /tmp/pfd_avh81e6j/25 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,688 - CMD: fastq-dump -N 49331543 -X 51228909 -O /tmp/pfd_avh81e6j/26 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,689 - CMD: fastq-dump -N 51228910 -X 53126276 -O /tmp/pfd_avh81e6j/27 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,690 - CMD: fastq-dump -N 53126277 -X 55023643 -O /tmp/pfd_avh81e6j/28 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,691 - CMD: fastq-dump -N 55023644 -X 56921010 -O /tmp/pfd_avh81e6j/29 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,692 - CMD: fastq-dump -N 56921011 -X 58818377 -O /tmp/pfd_avh81e6j/30 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,693 - CMD: fastq-dump -N 58818378 -X 60715744 -O /tmp/pfd_avh81e6j/31 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,694 - CMD: fastq-dump -N 60715745 -X 62613111 -O /tmp/pfd_avh81e6j/32 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,695 - CMD: fastq-dump -N 62613112 -X 64510478 -O /tmp/pfd_avh81e6j/33 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,696 - CMD: fastq-dump -N 64510479 -X 66407845 -O /tmp/pfd_avh81e6j/34 --split-files --gzip SRR29492868
+2024-09-10 21:04:07,698 - CMD: fastq-dump -N 66407846 -X 68305244 -O /tmp/pfd_avh81e6j/35 --split-files --gzip SRR29492868
+2024-09-10 23:33:15,363 - SRR ids: ['SRR29492869']
+2024-09-10 23:33:15,363 - extra args: ['--split-files', '--gzip']
+2024-09-10 23:33:15,367 - tempdir: /tmp/pfd_bs4zx6_w
+2024-09-10 23:33:15,367 - CMD: sra-stat --meta --quick SRR29492869
+2024-09-10 23:33:45,403 - SRR29492869 spots: 80190412
+2024-09-10 23:33:45,403 - blocks: [[1, 2227511], [2227512, 4455022], [4455023, 6682533], [6682534, 8910044], [8910045, 11137555], [11137556, 13365066], [13365067, 15592577], [15592578, 17820088], [17820089, 20047599], [20047600, 22275110], [22275111, 24502621], [24502622, 26730132], [26730133, 28957643], [28957644, 31185154], [31185155, 33412665], [33412666, 35640176], [35640177, 37867687], [37867688, 40095198], [40095199, 42322709], [42322710, 44550220], [44550221, 46777731], [46777732, 49005242], [49005243, 51232753], [51232754, 53460264], [53460265, 55687775], [55687776, 57915286], [57915287, 60142797], [60142798, 62370308], [62370309, 64597819], [64597820, 66825330], [66825331, 69052841], [69052842, 71280352], [71280353, 73507863], [73507864, 75735374], [75735375, 77962885], [77962886, 80190412]]
+2024-09-10 23:33:45,403 - CMD: fastq-dump -N 1 -X 2227511 -O /tmp/pfd_bs4zx6_w/0 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,411 - CMD: fastq-dump -N 2227512 -X 4455022 -O /tmp/pfd_bs4zx6_w/1 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,412 - CMD: fastq-dump -N 4455023 -X 6682533 -O /tmp/pfd_bs4zx6_w/2 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,414 - CMD: fastq-dump -N 6682534 -X 8910044 -O /tmp/pfd_bs4zx6_w/3 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,415 - CMD: fastq-dump -N 8910045 -X 11137555 -O /tmp/pfd_bs4zx6_w/4 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,416 - CMD: fastq-dump -N 11137556 -X 13365066 -O /tmp/pfd_bs4zx6_w/5 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,417 - CMD: fastq-dump -N 13365067 -X 15592577 -O /tmp/pfd_bs4zx6_w/6 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,418 - CMD: fastq-dump -N 15592578 -X 17820088 -O /tmp/pfd_bs4zx6_w/7 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,419 - CMD: fastq-dump -N 17820089 -X 20047599 -O /tmp/pfd_bs4zx6_w/8 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,421 - CMD: fastq-dump -N 20047600 -X 22275110 -O /tmp/pfd_bs4zx6_w/9 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,422 - CMD: fastq-dump -N 22275111 -X 24502621 -O /tmp/pfd_bs4zx6_w/10 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,423 - CMD: fastq-dump -N 24502622 -X 26730132 -O /tmp/pfd_bs4zx6_w/11 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,425 - CMD: fastq-dump -N 26730133 -X 28957643 -O /tmp/pfd_bs4zx6_w/12 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,425 - CMD: fastq-dump -N 28957644 -X 31185154 -O /tmp/pfd_bs4zx6_w/13 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,427 - CMD: fastq-dump -N 31185155 -X 33412665 -O /tmp/pfd_bs4zx6_w/14 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,428 - CMD: fastq-dump -N 33412666 -X 35640176 -O /tmp/pfd_bs4zx6_w/15 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,429 - CMD: fastq-dump -N 35640177 -X 37867687 -O /tmp/pfd_bs4zx6_w/16 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,430 - CMD: fastq-dump -N 37867688 -X 40095198 -O /tmp/pfd_bs4zx6_w/17 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,431 - CMD: fastq-dump -N 40095199 -X 42322709 -O /tmp/pfd_bs4zx6_w/18 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,432 - CMD: fastq-dump -N 42322710 -X 44550220 -O /tmp/pfd_bs4zx6_w/19 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,433 - CMD: fastq-dump -N 44550221 -X 46777731 -O /tmp/pfd_bs4zx6_w/20 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,434 - CMD: fastq-dump -N 46777732 -X 49005242 -O /tmp/pfd_bs4zx6_w/21 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,435 - CMD: fastq-dump -N 49005243 -X 51232753 -O /tmp/pfd_bs4zx6_w/22 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,436 - CMD: fastq-dump -N 51232754 -X 53460264 -O /tmp/pfd_bs4zx6_w/23 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,437 - CMD: fastq-dump -N 53460265 -X 55687775 -O /tmp/pfd_bs4zx6_w/24 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,438 - CMD: fastq-dump -N 55687776 -X 57915286 -O /tmp/pfd_bs4zx6_w/25 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,440 - CMD: fastq-dump -N 57915287 -X 60142797 -O /tmp/pfd_bs4zx6_w/26 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,441 - CMD: fastq-dump -N 60142798 -X 62370308 -O /tmp/pfd_bs4zx6_w/27 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,442 - CMD: fastq-dump -N 62370309 -X 64597819 -O /tmp/pfd_bs4zx6_w/28 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,443 - CMD: fastq-dump -N 64597820 -X 66825330 -O /tmp/pfd_bs4zx6_w/29 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,444 - CMD: fastq-dump -N 66825331 -X 69052841 -O /tmp/pfd_bs4zx6_w/30 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,446 - CMD: fastq-dump -N 69052842 -X 71280352 -O /tmp/pfd_bs4zx6_w/31 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,446 - CMD: fastq-dump -N 71280353 -X 73507863 -O /tmp/pfd_bs4zx6_w/32 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,448 - CMD: fastq-dump -N 73507864 -X 75735374 -O /tmp/pfd_bs4zx6_w/33 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,448 - CMD: fastq-dump -N 75735375 -X 77962885 -O /tmp/pfd_bs4zx6_w/34 --split-files --gzip SRR29492869
+2024-09-10 23:33:45,450 - CMD: fastq-dump -N 77962886 -X 80190412 -O /tmp/pfd_bs4zx6_w/35 --split-files --gzip SRR29492869
+2024-09-11 00:10:12,562 - SRR ids: ['SRR29492870']
+2024-09-11 00:10:12,563 - extra args: ['--split-files', '--gzip']
+2024-09-11 00:10:12,565 - tempdir: /tmp/pfd_4j3u3ccs
+2024-09-11 00:10:12,565 - CMD: sra-stat --meta --quick SRR29492870
+2024-09-11 00:10:25,702 - SRR29492870 spots: 100785225
+2024-09-11 00:10:25,703 - blocks: [[1, 2799589], [2799590, 5599178], [5599179, 8398767], [8398768, 11198356], [11198357, 13997945], [13997946, 16797534], [16797535, 19597123], [19597124, 22396712], [22396713, 25196301], [25196302, 27995890], [27995891, 30795479], [30795480, 33595068], [33595069, 36394657], [36394658, 39194246], [39194247, 41993835], [41993836, 44793424], [44793425, 47593013], [47593014, 50392602], [50392603, 53192191], [53192192, 55991780], [55991781, 58791369], [58791370, 61590958], [61590959, 64390547], [64390548, 67190136], [67190137, 69989725], [69989726, 72789314], [72789315, 75588903], [75588904, 78388492], [78388493, 81188081], [81188082, 83987670], [83987671, 86787259], [86787260, 89586848], [89586849, 92386437], [92386438, 95186026], [95186027, 97985615], [97985616, 100785225]]
+2024-09-11 00:10:25,703 - CMD: fastq-dump -N 1 -X 2799589 -O /tmp/pfd_4j3u3ccs/0 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,709 - CMD: fastq-dump -N 2799590 -X 5599178 -O /tmp/pfd_4j3u3ccs/1 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,710 - CMD: fastq-dump -N 5599179 -X 8398767 -O /tmp/pfd_4j3u3ccs/2 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,711 - CMD: fastq-dump -N 8398768 -X 11198356 -O /tmp/pfd_4j3u3ccs/3 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,712 - CMD: fastq-dump -N 11198357 -X 13997945 -O /tmp/pfd_4j3u3ccs/4 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,713 - CMD: fastq-dump -N 13997946 -X 16797534 -O /tmp/pfd_4j3u3ccs/5 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,714 - CMD: fastq-dump -N 16797535 -X 19597123 -O /tmp/pfd_4j3u3ccs/6 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,715 - CMD: fastq-dump -N 19597124 -X 22396712 -O /tmp/pfd_4j3u3ccs/7 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,716 - CMD: fastq-dump -N 22396713 -X 25196301 -O /tmp/pfd_4j3u3ccs/8 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,718 - CMD: fastq-dump -N 25196302 -X 27995890 -O /tmp/pfd_4j3u3ccs/9 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,719 - CMD: fastq-dump -N 27995891 -X 30795479 -O /tmp/pfd_4j3u3ccs/10 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,719 - CMD: fastq-dump -N 30795480 -X 33595068 -O /tmp/pfd_4j3u3ccs/11 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,721 - CMD: fastq-dump -N 33595069 -X 36394657 -O /tmp/pfd_4j3u3ccs/12 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,722 - CMD: fastq-dump -N 36394658 -X 39194246 -O /tmp/pfd_4j3u3ccs/13 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,722 - CMD: fastq-dump -N 39194247 -X 41993835 -O /tmp/pfd_4j3u3ccs/14 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,724 - CMD: fastq-dump -N 41993836 -X 44793424 -O /tmp/pfd_4j3u3ccs/15 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,724 - CMD: fastq-dump -N 44793425 -X 47593013 -O /tmp/pfd_4j3u3ccs/16 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,725 - CMD: fastq-dump -N 47593014 -X 50392602 -O /tmp/pfd_4j3u3ccs/17 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,726 - CMD: fastq-dump -N 50392603 -X 53192191 -O /tmp/pfd_4j3u3ccs/18 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,727 - CMD: fastq-dump -N 53192192 -X 55991780 -O /tmp/pfd_4j3u3ccs/19 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,729 - CMD: fastq-dump -N 55991781 -X 58791369 -O /tmp/pfd_4j3u3ccs/20 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,730 - CMD: fastq-dump -N 58791370 -X 61590958 -O /tmp/pfd_4j3u3ccs/21 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,731 - CMD: fastq-dump -N 61590959 -X 64390547 -O /tmp/pfd_4j3u3ccs/22 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,732 - CMD: fastq-dump -N 64390548 -X 67190136 -O /tmp/pfd_4j3u3ccs/23 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,733 - CMD: fastq-dump -N 67190137 -X 69989725 -O /tmp/pfd_4j3u3ccs/24 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,734 - CMD: fastq-dump -N 69989726 -X 72789314 -O /tmp/pfd_4j3u3ccs/25 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,735 - CMD: fastq-dump -N 72789315 -X 75588903 -O /tmp/pfd_4j3u3ccs/26 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,736 - CMD: fastq-dump -N 75588904 -X 78388492 -O /tmp/pfd_4j3u3ccs/27 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,737 - CMD: fastq-dump -N 78388493 -X 81188081 -O /tmp/pfd_4j3u3ccs/28 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,738 - CMD: fastq-dump -N 81188082 -X 83987670 -O /tmp/pfd_4j3u3ccs/29 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,739 - CMD: fastq-dump -N 83987671 -X 86787259 -O /tmp/pfd_4j3u3ccs/30 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,740 - CMD: fastq-dump -N 86787260 -X 89586848 -O /tmp/pfd_4j3u3ccs/31 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,741 - CMD: fastq-dump -N 89586849 -X 92386437 -O /tmp/pfd_4j3u3ccs/32 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,742 - CMD: fastq-dump -N 92386438 -X 95186026 -O /tmp/pfd_4j3u3ccs/33 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,743 - CMD: fastq-dump -N 95186027 -X 97985615 -O /tmp/pfd_4j3u3ccs/34 --split-files --gzip SRR29492870
+2024-09-11 00:10:25,744 - CMD: fastq-dump -N 97985616 -X 100785225 -O /tmp/pfd_4j3u3ccs/35 --split-files --gzip SRR29492870
+2024-09-11 00:19:15,362 - SRR ids: ['SRR29492871']
+2024-09-11 00:19:15,362 - extra args: ['--split-files', '--gzip']
+2024-09-11 00:19:15,364 - tempdir: /tmp/pfd_9nilfk2y
+2024-09-11 00:19:15,364 - CMD: sra-stat --meta --quick SRR29492871
+2024-09-11 00:19:30,577 - SRR29492871 spots: 129148682
+2024-09-11 00:19:30,577 - blocks: [[1, 3587463], [3587464, 7174926], [7174927, 10762389], [10762390, 14349852], [14349853, 17937315], [17937316, 21524778], [21524779, 25112241], [25112242, 28699704], [28699705, 32287167], [32287168, 35874630], [35874631, 39462093], [39462094, 43049556], [43049557, 46637019], [46637020, 50224482], [50224483, 53811945], [53811946, 57399408], [57399409, 60986871], [60986872, 64574334], [64574335, 68161797], [68161798, 71749260], [71749261, 75336723], [75336724, 78924186], [78924187, 82511649], [82511650, 86099112], [86099113, 89686575], [89686576, 93274038], [93274039, 96861501], [96861502, 100448964], [100448965, 104036427], [104036428, 107623890], [107623891, 111211353], [111211354, 114798816], [114798817, 118386279], [118386280, 121973742], [121973743, 125561205], [125561206, 129148682]]
+2024-09-11 00:19:30,577 - CMD: fastq-dump -N 1 -X 3587463 -O /tmp/pfd_9nilfk2y/0 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,586 - CMD: fastq-dump -N 3587464 -X 7174926 -O /tmp/pfd_9nilfk2y/1 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,587 - CMD: fastq-dump -N 7174927 -X 10762389 -O /tmp/pfd_9nilfk2y/2 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,589 - CMD: fastq-dump -N 10762390 -X 14349852 -O /tmp/pfd_9nilfk2y/3 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,590 - CMD: fastq-dump -N 14349853 -X 17937315 -O /tmp/pfd_9nilfk2y/4 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,591 - CMD: fastq-dump -N 17937316 -X 21524778 -O /tmp/pfd_9nilfk2y/5 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,593 - CMD: fastq-dump -N 21524779 -X 25112241 -O /tmp/pfd_9nilfk2y/6 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,594 - CMD: fastq-dump -N 25112242 -X 28699704 -O /tmp/pfd_9nilfk2y/7 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,595 - CMD: fastq-dump -N 28699705 -X 32287167 -O /tmp/pfd_9nilfk2y/8 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,596 - CMD: fastq-dump -N 32287168 -X 35874630 -O /tmp/pfd_9nilfk2y/9 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,597 - CMD: fastq-dump -N 35874631 -X 39462093 -O /tmp/pfd_9nilfk2y/10 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,598 - CMD: fastq-dump -N 39462094 -X 43049556 -O /tmp/pfd_9nilfk2y/11 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,599 - CMD: fastq-dump -N 43049557 -X 46637019 -O /tmp/pfd_9nilfk2y/12 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,600 - CMD: fastq-dump -N 46637020 -X 50224482 -O /tmp/pfd_9nilfk2y/13 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,601 - CMD: fastq-dump -N 50224483 -X 53811945 -O /tmp/pfd_9nilfk2y/14 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,602 - CMD: fastq-dump -N 53811946 -X 57399408 -O /tmp/pfd_9nilfk2y/15 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,603 - CMD: fastq-dump -N 57399409 -X 60986871 -O /tmp/pfd_9nilfk2y/16 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,605 - CMD: fastq-dump -N 60986872 -X 64574334 -O /tmp/pfd_9nilfk2y/17 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,606 - CMD: fastq-dump -N 64574335 -X 68161797 -O /tmp/pfd_9nilfk2y/18 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,607 - CMD: fastq-dump -N 68161798 -X 71749260 -O /tmp/pfd_9nilfk2y/19 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,608 - CMD: fastq-dump -N 71749261 -X 75336723 -O /tmp/pfd_9nilfk2y/20 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,609 - CMD: fastq-dump -N 75336724 -X 78924186 -O /tmp/pfd_9nilfk2y/21 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,611 - CMD: fastq-dump -N 78924187 -X 82511649 -O /tmp/pfd_9nilfk2y/22 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,612 - CMD: fastq-dump -N 82511650 -X 86099112 -O /tmp/pfd_9nilfk2y/23 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,613 - CMD: fastq-dump -N 86099113 -X 89686575 -O /tmp/pfd_9nilfk2y/24 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,614 - CMD: fastq-dump -N 89686576 -X 93274038 -O /tmp/pfd_9nilfk2y/25 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,615 - CMD: fastq-dump -N 93274039 -X 96861501 -O /tmp/pfd_9nilfk2y/26 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,616 - CMD: fastq-dump -N 96861502 -X 100448964 -O /tmp/pfd_9nilfk2y/27 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,617 - CMD: fastq-dump -N 100448965 -X 104036427 -O /tmp/pfd_9nilfk2y/28 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,618 - CMD: fastq-dump -N 104036428 -X 107623890 -O /tmp/pfd_9nilfk2y/29 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,619 - CMD: fastq-dump -N 107623891 -X 111211353 -O /tmp/pfd_9nilfk2y/30 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,620 - CMD: fastq-dump -N 111211354 -X 114798816 -O /tmp/pfd_9nilfk2y/31 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,621 - CMD: fastq-dump -N 114798817 -X 118386279 -O /tmp/pfd_9nilfk2y/32 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,622 - CMD: fastq-dump -N 118386280 -X 121973742 -O /tmp/pfd_9nilfk2y/33 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,623 - CMD: fastq-dump -N 121973743 -X 125561205 -O /tmp/pfd_9nilfk2y/34 --split-files --gzip SRR29492871
+2024-09-11 00:19:30,624 - CMD: fastq-dump -N 125561206 -X 129148682 -O /tmp/pfd_9nilfk2y/35 --split-files --gzip SRR29492871
+2024-09-11 00:30:25,948 - SRR ids: ['SRR29492872']
+2024-09-11 00:30:25,949 - extra args: ['--split-files', '--gzip']
+2024-09-11 00:30:25,951 - tempdir: /tmp/pfd_effhfd2o
+2024-09-11 00:30:25,951 - CMD: sra-stat --meta --quick SRR29492872
+2024-09-11 00:30:38,876 - SRR29492872 spots: 72741997
+2024-09-11 00:30:38,876 - blocks: [[1, 2020611], [2020612, 4041222], [4041223, 6061833], [6061834, 8082444], [8082445, 10103055], [10103056, 12123666], [12123667, 14144277], [14144278, 16164888], [16164889, 18185499], [18185500, 20206110], [20206111, 22226721], [22226722, 24247332], [24247333, 26267943], [26267944, 28288554], [28288555, 30309165], [30309166, 32329776], [32329777, 34350387], [34350388, 36370998], [36370999, 38391609], [38391610, 40412220], [40412221, 42432831], [42432832, 44453442], [44453443, 46474053], [46474054, 48494664], [48494665, 50515275], [50515276, 52535886], [52535887, 54556497], [54556498, 56577108], [56577109, 58597719], [58597720, 60618330], [60618331, 62638941], [62638942, 64659552], [64659553, 66680163], [66680164, 68700774], [68700775, 70721385], [70721386, 72741997]]
+2024-09-11 00:30:38,876 - CMD: fastq-dump -N 1 -X 2020611 -O /tmp/pfd_effhfd2o/0 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,880 - CMD: fastq-dump -N 2020612 -X 4041222 -O /tmp/pfd_effhfd2o/1 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,881 - CMD: fastq-dump -N 4041223 -X 6061833 -O /tmp/pfd_effhfd2o/2 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,882 - CMD: fastq-dump -N 6061834 -X 8082444 -O /tmp/pfd_effhfd2o/3 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,884 - CMD: fastq-dump -N 8082445 -X 10103055 -O /tmp/pfd_effhfd2o/4 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,885 - CMD: fastq-dump -N 10103056 -X 12123666 -O /tmp/pfd_effhfd2o/5 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,886 - CMD: fastq-dump -N 12123667 -X 14144277 -O /tmp/pfd_effhfd2o/6 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,887 - CMD: fastq-dump -N 14144278 -X 16164888 -O /tmp/pfd_effhfd2o/7 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,889 - CMD: fastq-dump -N 16164889 -X 18185499 -O /tmp/pfd_effhfd2o/8 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,890 - CMD: fastq-dump -N 18185500 -X 20206110 -O /tmp/pfd_effhfd2o/9 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,892 - CMD: fastq-dump -N 20206111 -X 22226721 -O /tmp/pfd_effhfd2o/10 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,893 - CMD: fastq-dump -N 22226722 -X 24247332 -O /tmp/pfd_effhfd2o/11 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,894 - CMD: fastq-dump -N 24247333 -X 26267943 -O /tmp/pfd_effhfd2o/12 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,895 - CMD: fastq-dump -N 26267944 -X 28288554 -O /tmp/pfd_effhfd2o/13 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,896 - CMD: fastq-dump -N 28288555 -X 30309165 -O /tmp/pfd_effhfd2o/14 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,897 - CMD: fastq-dump -N 30309166 -X 32329776 -O /tmp/pfd_effhfd2o/15 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,899 - CMD: fastq-dump -N 32329777 -X 34350387 -O /tmp/pfd_effhfd2o/16 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,900 - CMD: fastq-dump -N 34350388 -X 36370998 -O /tmp/pfd_effhfd2o/17 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,901 - CMD: fastq-dump -N 36370999 -X 38391609 -O /tmp/pfd_effhfd2o/18 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,903 - CMD: fastq-dump -N 38391610 -X 40412220 -O /tmp/pfd_effhfd2o/19 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,904 - CMD: fastq-dump -N 40412221 -X 42432831 -O /tmp/pfd_effhfd2o/20 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,905 - CMD: fastq-dump -N 42432832 -X 44453442 -O /tmp/pfd_effhfd2o/21 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,907 - CMD: fastq-dump -N 44453443 -X 46474053 -O /tmp/pfd_effhfd2o/22 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,908 - CMD: fastq-dump -N 46474054 -X 48494664 -O /tmp/pfd_effhfd2o/23 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,909 - CMD: fastq-dump -N 48494665 -X 50515275 -O /tmp/pfd_effhfd2o/24 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,911 - CMD: fastq-dump -N 50515276 -X 52535886 -O /tmp/pfd_effhfd2o/25 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,912 - CMD: fastq-dump -N 52535887 -X 54556497 -O /tmp/pfd_effhfd2o/26 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,913 - CMD: fastq-dump -N 54556498 -X 56577108 -O /tmp/pfd_effhfd2o/27 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,915 - CMD: fastq-dump -N 56577109 -X 58597719 -O /tmp/pfd_effhfd2o/28 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,916 - CMD: fastq-dump -N 58597720 -X 60618330 -O /tmp/pfd_effhfd2o/29 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,916 - CMD: fastq-dump -N 60618331 -X 62638941 -O /tmp/pfd_effhfd2o/30 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,917 - CMD: fastq-dump -N 62638942 -X 64659552 -O /tmp/pfd_effhfd2o/31 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,919 - CMD: fastq-dump -N 64659553 -X 66680163 -O /tmp/pfd_effhfd2o/32 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,920 - CMD: fastq-dump -N 66680164 -X 68700774 -O /tmp/pfd_effhfd2o/33 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,921 - CMD: fastq-dump -N 68700775 -X 70721385 -O /tmp/pfd_effhfd2o/34 --split-files --gzip SRR29492872
+2024-09-11 00:30:38,923 - CMD: fastq-dump -N 70721386 -X 72741997 -O /tmp/pfd_effhfd2o/35 --split-files --gzip SRR29492872
+2024-09-11 00:37:54,692 - SRR ids: ['SRR29492873']
+2024-09-11 00:37:54,693 - extra args: ['--split-files', '--gzip']
+2024-09-11 00:37:54,695 - tempdir: /tmp/pfd_wj8aks05
+2024-09-11 00:37:54,695 - CMD: sra-stat --meta --quick SRR29492873
+2024-09-11 00:38:06,677 - SRR29492873 spots: 63639054
+2024-09-11 00:38:06,677 - blocks: [[1, 1767751], [1767752, 3535502], [3535503, 5303253], [5303254, 7071004], [7071005, 8838755], [8838756, 10606506], [10606507, 12374257], [12374258, 14142008], [14142009, 15909759], [15909760, 17677510], [17677511, 19445261], [19445262, 21213012], [21213013, 22980763], [22980764, 24748514], [24748515, 26516265], [26516266, 28284016], [28284017, 30051767], [30051768, 31819518], [31819519, 33587269], [33587270, 35355020], [35355021, 37122771], [37122772, 38890522], [38890523, 40658273], [40658274, 42426024], [42426025, 44193775], [44193776, 45961526], [45961527, 47729277], [47729278, 49497028], [49497029, 51264779], [51264780, 53032530], [53032531, 54800281], [54800282, 56568032], [56568033, 58335783], [58335784, 60103534], [60103535, 61871285], [61871286, 63639054]]
+2024-09-11 00:38:06,677 - CMD: fastq-dump -N 1 -X 1767751 -O /tmp/pfd_wj8aks05/0 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,680 - CMD: fastq-dump -N 1767752 -X 3535502 -O /tmp/pfd_wj8aks05/1 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,682 - CMD: fastq-dump -N 3535503 -X 5303253 -O /tmp/pfd_wj8aks05/2 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,684 - CMD: fastq-dump -N 5303254 -X 7071004 -O /tmp/pfd_wj8aks05/3 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,685 - CMD: fastq-dump -N 7071005 -X 8838755 -O /tmp/pfd_wj8aks05/4 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,686 - CMD: fastq-dump -N 8838756 -X 10606506 -O /tmp/pfd_wj8aks05/5 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,687 - CMD: fastq-dump -N 10606507 -X 12374257 -O /tmp/pfd_wj8aks05/6 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,689 - CMD: fastq-dump -N 12374258 -X 14142008 -O /tmp/pfd_wj8aks05/7 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,690 - CMD: fastq-dump -N 14142009 -X 15909759 -O /tmp/pfd_wj8aks05/8 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,692 - CMD: fastq-dump -N 15909760 -X 17677510 -O /tmp/pfd_wj8aks05/9 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,693 - CMD: fastq-dump -N 17677511 -X 19445261 -O /tmp/pfd_wj8aks05/10 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,694 - CMD: fastq-dump -N 19445262 -X 21213012 -O /tmp/pfd_wj8aks05/11 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,696 - CMD: fastq-dump -N 21213013 -X 22980763 -O /tmp/pfd_wj8aks05/12 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,697 - CMD: fastq-dump -N 22980764 -X 24748514 -O /tmp/pfd_wj8aks05/13 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,698 - CMD: fastq-dump -N 24748515 -X 26516265 -O /tmp/pfd_wj8aks05/14 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,700 - CMD: fastq-dump -N 26516266 -X 28284016 -O /tmp/pfd_wj8aks05/15 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,701 - CMD: fastq-dump -N 28284017 -X 30051767 -O /tmp/pfd_wj8aks05/16 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,702 - CMD: fastq-dump -N 30051768 -X 31819518 -O /tmp/pfd_wj8aks05/17 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,703 - CMD: fastq-dump -N 31819519 -X 33587269 -O /tmp/pfd_wj8aks05/18 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,704 - CMD: fastq-dump -N 33587270 -X 35355020 -O /tmp/pfd_wj8aks05/19 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,705 - CMD: fastq-dump -N 35355021 -X 37122771 -O /tmp/pfd_wj8aks05/20 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,706 - CMD: fastq-dump -N 37122772 -X 38890522 -O /tmp/pfd_wj8aks05/21 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,707 - CMD: fastq-dump -N 38890523 -X 40658273 -O /tmp/pfd_wj8aks05/22 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,708 - CMD: fastq-dump -N 40658274 -X 42426024 -O /tmp/pfd_wj8aks05/23 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,709 - CMD: fastq-dump -N 42426025 -X 44193775 -O /tmp/pfd_wj8aks05/24 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,711 - CMD: fastq-dump -N 44193776 -X 45961526 -O /tmp/pfd_wj8aks05/25 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,712 - CMD: fastq-dump -N 45961527 -X 47729277 -O /tmp/pfd_wj8aks05/26 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,713 - CMD: fastq-dump -N 47729278 -X 49497028 -O /tmp/pfd_wj8aks05/27 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,715 - CMD: fastq-dump -N 49497029 -X 51264779 -O /tmp/pfd_wj8aks05/28 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,716 - CMD: fastq-dump -N 51264780 -X 53032530 -O /tmp/pfd_wj8aks05/29 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,717 - CMD: fastq-dump -N 53032531 -X 54800281 -O /tmp/pfd_wj8aks05/30 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,718 - CMD: fastq-dump -N 54800282 -X 56568032 -O /tmp/pfd_wj8aks05/31 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,719 - CMD: fastq-dump -N 56568033 -X 58335783 -O /tmp/pfd_wj8aks05/32 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,721 - CMD: fastq-dump -N 58335784 -X 60103534 -O /tmp/pfd_wj8aks05/33 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,722 - CMD: fastq-dump -N 60103535 -X 61871285 -O /tmp/pfd_wj8aks05/34 --split-files --gzip SRR29492873
+2024-09-11 00:38:06,723 - CMD: fastq-dump -N 61871286 -X 63639054 -O /tmp/pfd_wj8aks05/35 --split-files --gzip SRR29492873
+2024-09-11 00:45:17,266 - SRR ids: ['SRR29492874']
+2024-09-11 00:45:17,266 - extra args: ['--split-files', '--gzip']
+2024-09-11 00:45:17,269 - tempdir: /tmp/pfd_927qaxrj
+2024-09-11 00:45:17,269 - CMD: sra-stat --meta --quick SRR29492874
+2024-09-11 00:45:31,967 - SRR29492874 spots: 59061052
+2024-09-11 00:45:31,967 - blocks: [[1, 1640584], [1640585, 3281168], [3281169, 4921752], [4921753, 6562336], [6562337, 8202920], [8202921, 9843504], [9843505, 11484088], [11484089, 13124672], [13124673, 14765256], [14765257, 16405840], [16405841, 18046424], [18046425, 19687008], [19687009, 21327592], [21327593, 22968176], [22968177, 24608760], [24608761, 26249344], [26249345, 27889928], [27889929, 29530512], [29530513, 31171096], [31171097, 32811680], [32811681, 34452264], [34452265, 36092848], [36092849, 37733432], [37733433, 39374016], [39374017, 41014600], [41014601, 42655184], [42655185, 44295768], [44295769, 45936352], [45936353, 47576936], [47576937, 49217520], [49217521, 50858104], [50858105, 52498688], [52498689, 54139272], [54139273, 55779856], [55779857, 57420440], [57420441, 59061052]]
+2024-09-11 00:45:31,967 - CMD: fastq-dump -N 1 -X 1640584 -O /tmp/pfd_927qaxrj/0 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,970 - CMD: fastq-dump -N 1640585 -X 3281168 -O /tmp/pfd_927qaxrj/1 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,972 - CMD: fastq-dump -N 3281169 -X 4921752 -O /tmp/pfd_927qaxrj/2 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,973 - CMD: fastq-dump -N 4921753 -X 6562336 -O /tmp/pfd_927qaxrj/3 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,974 - CMD: fastq-dump -N 6562337 -X 8202920 -O /tmp/pfd_927qaxrj/4 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,975 - CMD: fastq-dump -N 8202921 -X 9843504 -O /tmp/pfd_927qaxrj/5 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,976 - CMD: fastq-dump -N 9843505 -X 11484088 -O /tmp/pfd_927qaxrj/6 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,977 - CMD: fastq-dump -N 11484089 -X 13124672 -O /tmp/pfd_927qaxrj/7 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,978 - CMD: fastq-dump -N 13124673 -X 14765256 -O /tmp/pfd_927qaxrj/8 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,979 - CMD: fastq-dump -N 14765257 -X 16405840 -O /tmp/pfd_927qaxrj/9 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,980 - CMD: fastq-dump -N 16405841 -X 18046424 -O /tmp/pfd_927qaxrj/10 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,981 - CMD: fastq-dump -N 18046425 -X 19687008 -O /tmp/pfd_927qaxrj/11 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,982 - CMD: fastq-dump -N 19687009 -X 21327592 -O /tmp/pfd_927qaxrj/12 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,984 - CMD: fastq-dump -N 21327593 -X 22968176 -O /tmp/pfd_927qaxrj/13 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,985 - CMD: fastq-dump -N 22968177 -X 24608760 -O /tmp/pfd_927qaxrj/14 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,986 - CMD: fastq-dump -N 24608761 -X 26249344 -O /tmp/pfd_927qaxrj/15 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,987 - CMD: fastq-dump -N 26249345 -X 27889928 -O /tmp/pfd_927qaxrj/16 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,988 - CMD: fastq-dump -N 27889929 -X 29530512 -O /tmp/pfd_927qaxrj/17 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,989 - CMD: fastq-dump -N 29530513 -X 31171096 -O /tmp/pfd_927qaxrj/18 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,991 - CMD: fastq-dump -N 31171097 -X 32811680 -O /tmp/pfd_927qaxrj/19 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,992 - CMD: fastq-dump -N 32811681 -X 34452264 -O /tmp/pfd_927qaxrj/20 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,993 - CMD: fastq-dump -N 34452265 -X 36092848 -O /tmp/pfd_927qaxrj/21 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,994 - CMD: fastq-dump -N 36092849 -X 37733432 -O /tmp/pfd_927qaxrj/22 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,995 - CMD: fastq-dump -N 37733433 -X 39374016 -O /tmp/pfd_927qaxrj/23 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,996 - CMD: fastq-dump -N 39374017 -X 41014600 -O /tmp/pfd_927qaxrj/24 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,998 - CMD: fastq-dump -N 41014601 -X 42655184 -O /tmp/pfd_927qaxrj/25 --split-files --gzip SRR29492874
+2024-09-11 00:45:31,999 - CMD: fastq-dump -N 42655185 -X 44295768 -O /tmp/pfd_927qaxrj/26 --split-files --gzip SRR29492874
+2024-09-11 00:45:32,000 - CMD: fastq-dump -N 44295769 -X 45936352 -O /tmp/pfd_927qaxrj/27 --split-files --gzip SRR29492874
+2024-09-11 00:45:32,001 - CMD: fastq-dump -N 45936353 -X 47576936 -O /tmp/pfd_927qaxrj/28 --split-files --gzip SRR29492874
+2024-09-11 00:45:32,002 - CMD: fastq-dump -N 47576937 -X 49217520 -O /tmp/pfd_927qaxrj/29 --split-files --gzip SRR29492874
+2024-09-11 00:45:32,003 - CMD: fastq-dump -N 49217521 -X 50858104 -O /tmp/pfd_927qaxrj/30 --split-files --gzip SRR29492874
+2024-09-11 00:45:32,004 - CMD: fastq-dump -N 50858105 -X 52498688 -O /tmp/pfd_927qaxrj/31 --split-files --gzip SRR29492874
+2024-09-11 00:45:32,005 - CMD: fastq-dump -N 52498689 -X 54139272 -O /tmp/pfd_927qaxrj/32 --split-files --gzip SRR29492874
+2024-09-11 00:45:32,006 - CMD: fastq-dump -N 54139273 -X 55779856 -O /tmp/pfd_927qaxrj/33 --split-files --gzip SRR29492874
+2024-09-11 00:45:32,008 - CMD: fastq-dump -N 55779857 -X 57420440 -O /tmp/pfd_927qaxrj/34 --split-files --gzip SRR29492874
+2024-09-11 00:45:32,009 - CMD: fastq-dump -N 57420441 -X 59061052 -O /tmp/pfd_927qaxrj/35 --split-files --gzip SRR29492874
+2024-09-11 00:52:14,407 - SRR ids: ['SRR29492875']
+2024-09-11 00:52:14,407 - extra args: ['--split-files', '--gzip']
+2024-09-11 00:52:14,409 - tempdir: /tmp/pfd_wyobo766
+2024-09-11 00:52:14,409 - CMD: sra-stat --meta --quick SRR29492875
+2024-09-11 00:52:25,546 - SRR29492875 spots: 223673993
+2024-09-11 00:52:25,546 - blocks: [[1, 6213166], [6213167, 12426332], [12426333, 18639498], [18639499, 24852664], [24852665, 31065830], [31065831, 37278996], [37278997, 43492162], [43492163, 49705328], [49705329, 55918494], [55918495, 62131660], [62131661, 68344826], [68344827, 74557992], [74557993, 80771158], [80771159, 86984324], [86984325, 93197490], [93197491, 99410656], [99410657, 105623822], [105623823, 111836988], [111836989, 118050154], [118050155, 124263320], [124263321, 130476486], [130476487, 136689652], [136689653, 142902818], [142902819, 149115984], [149115985, 155329150], [155329151, 161542316], [161542317, 167755482], [167755483, 173968648], [173968649, 180181814], [180181815, 186394980], [186394981, 192608146], [192608147, 198821312], [198821313, 205034478], [205034479, 211247644], [211247645, 217460810], [217460811, 223673993]]
+2024-09-11 00:52:25,546 - CMD: fastq-dump -N 1 -X 6213166 -O /tmp/pfd_wyobo766/0 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,549 - CMD: fastq-dump -N 6213167 -X 12426332 -O /tmp/pfd_wyobo766/1 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,551 - CMD: fastq-dump -N 12426333 -X 18639498 -O /tmp/pfd_wyobo766/2 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,552 - CMD: fastq-dump -N 18639499 -X 24852664 -O /tmp/pfd_wyobo766/3 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,553 - CMD: fastq-dump -N 24852665 -X 31065830 -O /tmp/pfd_wyobo766/4 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,554 - CMD: fastq-dump -N 31065831 -X 37278996 -O /tmp/pfd_wyobo766/5 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,555 - CMD: fastq-dump -N 37278997 -X 43492162 -O /tmp/pfd_wyobo766/6 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,556 - CMD: fastq-dump -N 43492163 -X 49705328 -O /tmp/pfd_wyobo766/7 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,557 - CMD: fastq-dump -N 49705329 -X 55918494 -O /tmp/pfd_wyobo766/8 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,558 - CMD: fastq-dump -N 55918495 -X 62131660 -O /tmp/pfd_wyobo766/9 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,559 - CMD: fastq-dump -N 62131661 -X 68344826 -O /tmp/pfd_wyobo766/10 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,561 - CMD: fastq-dump -N 68344827 -X 74557992 -O /tmp/pfd_wyobo766/11 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,562 - CMD: fastq-dump -N 74557993 -X 80771158 -O /tmp/pfd_wyobo766/12 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,563 - CMD: fastq-dump -N 80771159 -X 86984324 -O /tmp/pfd_wyobo766/13 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,564 - CMD: fastq-dump -N 86984325 -X 93197490 -O /tmp/pfd_wyobo766/14 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,565 - CMD: fastq-dump -N 93197491 -X 99410656 -O /tmp/pfd_wyobo766/15 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,566 - CMD: fastq-dump -N 99410657 -X 105623822 -O /tmp/pfd_wyobo766/16 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,566 - CMD: fastq-dump -N 105623823 -X 111836988 -O /tmp/pfd_wyobo766/17 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,568 - CMD: fastq-dump -N 111836989 -X 118050154 -O /tmp/pfd_wyobo766/18 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,569 - CMD: fastq-dump -N 118050155 -X 124263320 -O /tmp/pfd_wyobo766/19 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,570 - CMD: fastq-dump -N 124263321 -X 130476486 -O /tmp/pfd_wyobo766/20 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,571 - CMD: fastq-dump -N 130476487 -X 136689652 -O /tmp/pfd_wyobo766/21 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,572 - CMD: fastq-dump -N 136689653 -X 142902818 -O /tmp/pfd_wyobo766/22 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,573 - CMD: fastq-dump -N 142902819 -X 149115984 -O /tmp/pfd_wyobo766/23 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,574 - CMD: fastq-dump -N 149115985 -X 155329150 -O /tmp/pfd_wyobo766/24 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,575 - CMD: fastq-dump -N 155329151 -X 161542316 -O /tmp/pfd_wyobo766/25 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,576 - CMD: fastq-dump -N 161542317 -X 167755482 -O /tmp/pfd_wyobo766/26 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,577 - CMD: fastq-dump -N 167755483 -X 173968648 -O /tmp/pfd_wyobo766/27 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,578 - CMD: fastq-dump -N 173968649 -X 180181814 -O /tmp/pfd_wyobo766/28 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,579 - CMD: fastq-dump -N 180181815 -X 186394980 -O /tmp/pfd_wyobo766/29 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,580 - CMD: fastq-dump -N 186394981 -X 192608146 -O /tmp/pfd_wyobo766/30 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,581 - CMD: fastq-dump -N 192608147 -X 198821312 -O /tmp/pfd_wyobo766/31 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,582 - CMD: fastq-dump -N 198821313 -X 205034478 -O /tmp/pfd_wyobo766/32 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,583 - CMD: fastq-dump -N 205034479 -X 211247644 -O /tmp/pfd_wyobo766/33 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,585 - CMD: fastq-dump -N 211247645 -X 217460810 -O /tmp/pfd_wyobo766/34 --split-files --gzip SRR29492875
+2024-09-11 00:52:25,586 - CMD: fastq-dump -N 217460811 -X 223673993 -O /tmp/pfd_wyobo766/35 --split-files --gzip SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:19 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='6'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - failed SRR29492875
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='5'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2024-09-10T22:08:20 fastq-dump.3.1.1 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fastq-dump quit with error code 3
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fastq-dump quit with error code 3
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/KWTRP/kkimani/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fastq-dump quit with error code 3
+fastq-dump quit with error code 3
+fastq-dumpfastq-dump quit with error code  quit with error code 33
+
+fastq-dump quit with error code 3
+fastq-dump quit with error code 3
+fastq-dump quit with error code 3
+fastq-dump quit with error code 3
+fastq-dumpfastq-dump quit with error code fastq-dump quit with error code 3
+ quit with error code 3
+3
+fastq-dump quit with error code 3
+fastq-dump quit with error code 3
+fastq-dump quit with error code 3
+fastq-dumpfastq-dumpfastq-dump quit with error code  quit with error code  quit with error code 33
+3
+
+fastq-dumpfastq-dump quit with error code  quit with error code 33
+
+fastq-dump quit with error code 3
+fastq-dump quit with error code 3
+2024-09-11 01:08:20,637 - fastq-dump error! exit code: 3
+fastq-dump quit with error code 3
+fastq-dump quit with error code 3
+fastq-dump quit with error code 3
+fastq-dump quit with error code 3
+Error processing SRR29492875.
