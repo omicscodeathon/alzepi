@@ -1,1 +1,16 @@
-
+wget
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246712/suppl/GSM8246712_5xFAD_MG_10m_female_rep1_S2_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246713/suppl/GSM8246713_5xFAD_MG_10m_female_rep2_S4_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246714/suppl/GSM8246714_WTMG_10m_female_rep1_S5_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246715/suppl/GSM8246715_WTMG_10m_female_rep2_S6_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246716/suppl/GSM8246716_X4MG_10m_female_rep1_S1_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246717/suppl/GSM8246717_X4MG_10m_female_rep2_S3_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246718/suppl/GSM8246718_WT_P9_rep1_S4_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246719/suppl/GSM8246719_WT_P9_rep2_S5_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246720/suppl/GSM8246720_WT_P14_rep1_S1_R1_001.trim.merged.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246721/suppl/GSM8246721_WT_P14_rep2_S2_R1_001.trim.merged.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246722/suppl/GSM8246722_IRF8KO_P9_rep1_S4_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246723/suppl/GSM8246723_IRF8KO_P9_rep2_S5_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246724/suppl/GSM8246724_IRF8KO_P9_rep3_S6_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246725/suppl/GSM8246725_IRF8KO_P14_rep1_S4_R1_001.trim.merged.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246726/suppl/GSM8246726_IRF8KO_P14_rep2_S5_R1_001.trim.merged.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
