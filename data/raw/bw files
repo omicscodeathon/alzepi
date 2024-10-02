@@ -1,0 +1,7 @@
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSE266421_5xFADMG_10m_F_ATAC_merge_SeqDepthNorm.bw
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSE266421_IRF8KO_P14_F_SeqDepthNorm.bw
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSE266421_IRF8KO_P9_F_SeqDepthNorm.bw
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSE266421_WTMG_10m_F_ATAC_merge_SeqDepthNorm.bw
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSE266421_WT_P14_F_SeqDepthNorm.bw
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSE266421_WT_P9_F_SeqDepthNorm.bw
+wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSE266421_X4MG_10m_F_ATAC_merge_SeqDepthNorm.bw
