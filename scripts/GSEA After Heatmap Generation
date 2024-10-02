@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Step 1: Mapping Accessible Regions to Genes (Using bedtools closest)
+for sample in GSM8246718_WT_P9_rep1.bed GSM8246719_WT_P9_rep2.bed \
+              GSM8246720_WT_P14_rep1.bed GSM8246721_WT_P14_rep2.bed \
+              GSM8246722_IRF8KO_P9_rep1.bed GSM8246723_IRF8KO_P9_rep2.bed \
+              GSM8246724_IRF8KO_P9_rep3.bed GSM8246725_IRF8KO_P14_rep1.bed \
+              GSM8246726_IRF8KO_P14_rep2.bed; do
+    # Map accessible regions to the closest genes in the reference genome
+    bedtools closest -a $sample -b mm10_genes.bed > closest_genes_${sample%.bed}.bed
+done
+
+echo "Mapping of accessible regions to genes completed."
+
+# Step 2: (Optional) Perform GSEA using a tool like GSEA or Enrichr based on the gene lists
+# You can use a tool like GSEA or Enrichr to analyze these gene lists for enrichment in pathways or gene sets.
