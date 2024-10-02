@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Run ROSE for each sample
+for sample in GSM8246718_WT_P9_rep1.bed GSM8246719_WT_P9_rep2.bed \
+              GSM8246720_WT_P14_rep1.bed GSM8246721_WT_P14_rep2.bed \
+              GSM8246722_IRF8KO_P9_rep1.bed GSM8246723_IRF8KO_P9_rep2.bed \
+              GSM8246724_IRF8KO_P9_rep3.bed GSM8246725_IRF8KO_P14_rep1.bed \
+              GSM8246726_IRF8KO_P14_rep2.bed; do
+    python ROSE_main.py -i $sample -r ${sample%.bed}.bam -g mm10 \
+                        -o ROSE_output_${sample%.bed}/
+done
+
+echo "Super-enhancer analysis with ROSE completed for all samples."
