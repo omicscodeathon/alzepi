@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Perform motif analysis for each sample pair
+for sample in GSM8246712_5xFAD_MG_10m_rep1.bed GSM8246713_5xFAD_MG_10m_rep2.bed \
+              GSM8246714_WTMG_10m_rep1.bed GSM8246715_WTMG_10m_rep2.bed \
+              GSM8246716_X4MG_10m_rep1.bed GSM8246717_X4MG_10m_rep2.bed \
+              GSM8246718_WT_P9_rep1.bed GSM8246719_WT_P9_rep2.bed \
+              GSM8246720_WT_P14_rep1.bed GSM8246721_WT_P14_rep2.bed \
+              GSM8246722_IRF8KO_P9_rep1.bed GSM8246723_IRF8KO_P9_rep2.bed \
+              GSM8246724_IRF8KO_P9_rep3.bed GSM8246725_IRF8KO_P14_rep1.bed \
+              GSM8246726_IRF8KO_P14_rep2.bed; do
+    meme-chip -db /path/to/motif_database.meme $sample -oc meme_output_${sample%.bed}
+done
+
+echo "Motif analysis completed for all samples."
