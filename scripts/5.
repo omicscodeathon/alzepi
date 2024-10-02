@@ -1,0 +1,73 @@
+Step1
+#!/bin/bash
+
+# Merge all BED files into one reference set of regions
+bedtools unionbedg -i GSM8246712_5xFAD_MG_10m_rep1.bed GSM8246713_5xFAD_MG_10m_rep2.bed \
+                   GSM8246714_WTMG_10m_rep1.bed GSM8246715_WTMG_10m_rep2.bed \
+                   GSM8246716_X4MG_10m_rep1.bed GSM8246717_X4MG_10m_rep2.bed \
+                   GSM8246718_WT_P9_rep1.bed GSM8246719_WT_P9_rep2.bed \
+                   GSM8246720_WT_P14_rep1.bed GSM8246721_WT_P14_rep2.bed \
+                   GSM8246722_IRF8KO_P9_rep1.bed GSM8246723_IRF8KO_P9_rep2.bed \
+                   GSM8246724_IRF8KO_P9_rep3.bed GSM8246725_IRF8KO_P14_rep1.bed \
+                   GSM8246726_IRF8KO_P14_rep2.bed > merged_regions.bed
+
+echo "Merged BED files to create a common reference: merged_regions.bed"
+
+Step2
+#!/bin/bash
+# Create a matrix showing peak presence for each sample
+bedtools intersect -a merged_regions.bed -b GSM8246712_5xFAD_MG_10m_rep1.bed -c > matrix_GSM8246712.bed
+bedtools intersect -a merged_regions.bed -b GSM8246713_5xFAD_MG_10m_rep2.bed -c > matrix_GSM8246713.bed
+bedtools intersect -a merged_regions.bed -b GSM8246714_WTMG_10m_rep1.bed -c > matrix_GSM8246714.bed
+bedtools intersect -a merged_regions.bed -b GSM8246715_WTMG_10m_rep2.bed -c > matrix_GSM8246715.bed
+bedtools intersect -a merged_regions.bed -b GSM8246716_X4MG_10m_rep1.bed -c > matrix_GSM8246716.bed
+bedtools intersect -a merged_regions.bed -b GSM8246717_X4MG_10m_rep2.bed -c > matrix_GSM8246717.bed
+bedtools intersect -a merged_regions.bed -b GSM8246718_WT_P9_rep1.bed -c > matrix_GSM8246718.bed
+bedtools intersect -a merged_regions.bed -b GSM8246719_WT_P9_rep2.bed -c > matrix_GSM8246719.bed
+bedtools intersect -a merged_regions.bed -b GSM8246720_WT_P14_rep1.bed -c > matrix_GSM8246720.bed
+bedtools intersect -a merged_regions.bed -b GSM8246721_WT_P14_rep2.bed -c > matrix_GSM8246721.bed
+bedtools intersect -a merged_regions.bed -b GSM8246722_IRF8KO_P9_rep1.bed -c > matrix_GSM8246722.bed
+bedtools intersect -a merged_regions.bed -b GSM8246723_IRF8KO_P9_rep2.bed -c > matrix_GSM8246723.bed
+bedtools intersect -a merged_regions.bed -b GSM8246724_IRF8KO_P9_rep3.bed -c > matrix_GSM8246724.bed
+bedtools intersect -a merged_regions.bed -b GSM8246725_IRF8KO_P14_rep1.bed -c > matrix_GSM8246725.bed
+bedtools intersect -a merged_regions.bed -b GSM8246726_IRF8KO_P14_rep2.bed -c > matrix_GSM8246726.bed
+
+echo "Peak presence matrices created for each sample."
+
+#!/bin/bash
+
+# Combine the matrices into a single matrix file
+paste matrix_GSM8246712.bed matrix_GSM8246713.bed matrix_GSM8246714.bed matrix_GSM8246715.bed \
+      matrix_GSM8246716.bed matrix_GSM8246717.bed matrix_GSM8246718.bed matrix_GSM8246719.bed \
+      matrix_GSM8246720.bed matrix_GSM8246721.bed matrix_GSM8246722.bed matrix_GSM8246723.bed \
+      matrix_GSM8246724.bed matrix_GSM8246725.bed matrix_GSM8246726.bed > combined_matrix.bed
+
+# Remove duplicate position columns (keep only the peak presence/absence data)
+cut -f 4,8,12,16,20,24,28,32,36,40,44,48,52,56 combined_matrix.bed > final_matrix.tsv
+
+echo "Combined matrix saved as final_matrix.tsv"
+
+Step3: python
+!pip install seaborn matplotlib
+python generate_heatmap.py
+# Import necessary libraries
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Load the matrix (final_matrix.tsv) into a DataFrame
+matrix = pd.read_csv("final_matrix.tsv", sep="\t", header=None)
+
+# Set up the matplotlib figure
+plt.figure(figsize=(10, 8))
+
+# Create the heatmap with seaborn
+sns.heatmap(matrix, cmap="coolwarm", cbar=True)
+
+# Save the heatmap as PNG
+plt.savefig("peak_heatmap.png")
+
+# Show the heatmap
+plt.show()
+
+
