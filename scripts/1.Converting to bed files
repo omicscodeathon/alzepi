@@ -12,4 +12,4 @@ for sample in GSM8246712_5xFAD_MG_10m_rep1.narrowPeak.gz GSM8246713_5xFAD_MG_10m
     zcat $sample | awk '{print $1"\t"$2"\t"$3}' > ${sample%.gz}.bed
 done
 
-echo "All narrowPeak files converted to BED format."
+echo "All narrowPeak files converted to BED format."  
