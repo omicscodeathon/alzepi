@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Convert narrowPeak to BED format for each sample
+for sample in GSM8246712_5xFAD_MG_10m_rep1.narrowPeak.gz GSM8246713_5xFAD_MG_10m_rep2.narrowPeak.gz \
+              GSM8246714_WTMG_10m_rep1.narrowPeak.gz GSM8246715_WTMG_10m_rep2.narrowPeak.gz \
+              GSM8246716_X4MG_10m_rep1.narrowPeak.gz GSM8246717_X4MG_10m_rep2.narrowPeak.gz \ 
+              GSM8246718_WT_P9_rep1.narrowPeak.gz GSM8246719_WT_P9_rep2.narrowPeak.gz \
+              GSM8246720_WT_P14_rep1.narrowPeak.gz GSM8246721_WT_P14_rep2.narrowPeak.gz \
+              GSM8246722_IRF8KO_P9_rep1.narrowPeak.gz GSM8246723_IRF8KO_P9_rep2.narrowPeak.gz \
+              GSM8246724_IRF8KO_P9_rep3.narrowPeak.gz GSM8246725_IRF8KO_P14_rep1.narrowPeak.gz \
+              GSM8246726_IRF8KO_P14_rep2.narrowPeak.gz; do
+    zcat $sample | awk '{print $1"\t"$2"\t"$3}' > ${sample%.gz}.bed
+done
+
+echo "All narrowPeak files converted to BED format."
