@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# Step 1: Update the package manager
+sudo apt update
+
+# Step 2: Install wget for downloading files
+# wget is used to download data files like narrowPeak and BigWig from public repositories (e.g., GEO).
+sudo apt install wget -y
+
+# Step 3: Install awk (gawk) for manipulating narrowPeak files
+# awk will be used to reformat narrowPeak files into BED format for motif analysis.
+sudo apt install gawk -y
+
+# Step 4: Install bedtools for intersection and manipulation of narrowPeak/BED files
+# bedtools is useful for comparing and manipulating genomic regions in BED format.
+sudo apt install bedtools -y
+
+# Step 5: Install deepTools for BigWig (.bw) manipulation and visualization (e.g., heatmaps, profiles)
+# deepTools is key for working with BigWig files, allowing the generation of matrices, heatmaps, and profiles.
+sudo apt install deeptools -y
+
+# Step 6: Install UCSC tools for handling BigWig files
+# bigWigInfo and bigWigToBedGraph are used to get information on BigWig files and convert BigWig to BEDGraph.
+sudo apt install ucsc-bigwiginfo ucsc-bedgraphtobigwig -y
+
+# Step 7: Install matplotlib, seaborn, and pandas for visualizing results in Python
+# These are used to generate heatmaps, profiles, and other data visualizations.
+pip install matplotlib seaborn pandas
+
+# Step 8: Install MACS2 for peak calling in ATAC-seq data
+# MACS2 is a peak caller used for identifying open chromatin regions in ATAC-seq data.
+pip install macs2
+
+# Step 9: Install MEME Suite for motif enrichment analysis
+# MEME Suite is used for identifying motifs enriched in narrowPeak files.
+# The following steps are for manual installation of MEME Suite.
+# Download MEME Suite from the official site, extract it, and install.
+
+# Download MEME Suite
+wget http://meme-suite.org/meme-software/5.4.1/meme-5.4.1.tar.gz
+# Extract the downloaded tarball
+tar -xvzf meme-5.4.1.tar.gz
+cd meme-5.4.1/
+
+# Configure and install MEME Suite
+./configure --prefix=/usr/local/meme
+make
+sudo make install
+
+# Add MEME Suite to the PATH so it's available globally
+echo "export PATH=/usr/local/meme/bin:$PATH" >> ~/.bashrc
+source ~/.bashrc  
+# Download HOCOMOCO Mouse motif database and save it as motif_database.meme
+wget http://meme-suite.org/meme/db/motifs/motif_databases/MOUSE/HOCOMOCOv11_FULL_MOUSE_mono.meme -O ~/motif_databases/motif_database.meme
+
+
+sudo apt update
+sudo apt install ucsc-bedgraphtobigwig ucsc-bigwiginfo
+
+pip install matplotlib seaborn pandas
